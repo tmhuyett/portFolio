@@ -1,6 +1,6 @@
 ---
-title: 'AI Woodpecker classifier'
-author: 'Netlifriends'
+title: 'Woodpecker classifier'
+author: 'Todd'
 description: 'dfgdfgdfgdfgdfgdfg'
 date: '2020-04-27'
 
