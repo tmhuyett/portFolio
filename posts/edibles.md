@@ -1,11 +1,9 @@
 ---
-title: 'Nootropics shop'
-author: 'Todd'
-date: '2020-04-29'
+title: "Gatsby + Shopify Nature Shop"
+author: "Todd"
+date: "2020-04-29"
 ---
 
-#### [Live Demo](https://east-coast-edibles.netlify.app/)
+#### [Live Demo](https://optimistic-spence-02adf6.netlify.app/)
 
-
-
-This shop was a collaboration with another developer. While I had already used Sanity, Stripe, and Gatsby individually in the past, this project helped me to learn how to bring the various tools together and create a modern website. 
+The purpose of this had nothing to do with artistic beauty. I merely wanted to learn to configure Gatsby and Shopify.
