@@ -37,9 +37,14 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         #container {
           padding-left: 20px;
           padding-right: 10px;
+          padding-top: 20px;
         }
         * {
   font-size: 20px;
+        }
+
+        #back {
+          padding-top: 20px;
         }
 
       `}</style>
