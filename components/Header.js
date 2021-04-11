@@ -12,9 +12,7 @@ export default function Header() {
           <Link href="https://www.linkedin.com/in/todd-huyett-2596a892/">
             <a>LinkedIn</a>
           </Link>
-          <Link href="https://prokopious.github.io/cv2/">
-            <a>Contact</a>
-          </Link>
+
       
 
           

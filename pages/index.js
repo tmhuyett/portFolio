@@ -16,7 +16,8 @@ const Index = ({ posts, title, description, ...props }) => {
           type="text/css"
         />
       </Head>
-      <Layout pageTitle={title} description={description}>
+      <div id="cont"><Layout pageTitle={title} description={description}>
+       
         <h1 className="title">Todd Huyett</h1>
         <h2>Web Developer</h2>
 
@@ -32,7 +33,7 @@ const Index = ({ posts, title, description, ...props }) => {
           linguistics. As a developer, I enjoy learning to use new frameworks
           and tools, which is how I spend most of my free time.{" "}
         </p>
-      </Layout>
+      </Layout></div>
       <style jsx>{`
         .title {
           font-size: calc(30px + 0.5vw);
@@ -45,13 +46,13 @@ const Index = ({ posts, title, description, ...props }) => {
         }
         h2 {
           padding-left: 22px;
-          font-size: calc(18px + 0.5vw);
+          font-size: calc(18px + 0.3vw);
 
           style: bold;
 
           padding-top: 0;
-          margin-top: -20px;
-          color: black;
+        
+          color: #4d4d4d;
         }
         h3 {
           padding-left: 20px;
@@ -64,6 +65,7 @@ const Index = ({ posts, title, description, ...props }) => {
           font-size: 18px;
           padding-bottom: 0;
           margin-bottom: 0;
+          color: #4d4d4d;
         }
       `}</style>
     </>
