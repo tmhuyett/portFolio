@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons';
+import { AiOutlineGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
 
 export default function Header() {
   return (
@@ -7,10 +9,10 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="https://github.com/prokopious">
-            <a>GitHub</a>
+            <a><AiOutlineGithub /></a>
           </Link>
           <Link href="https://www.linkedin.com/in/todd-huyett-2596a892/">
-            <a>LinkedIn</a>
+            <a><AiFillLinkedin /></a>
           </Link>
 
       
@@ -55,6 +57,7 @@ export default function Header() {
         nav a {
           margin-right: 20px;
           color: #4d4d4d;
+          
         
           
         }

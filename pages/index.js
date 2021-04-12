@@ -62,7 +62,7 @@ const Index = ({ posts, title, description, ...props }) => {
 
         p {
           padding-left: 20px;
-          font-size: 18px;
+          font-size: 16px;
           padding-bottom: 0;
           margin-bottom: 0;
           color: #4d4d4d;
