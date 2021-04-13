@@ -137,7 +137,7 @@ const Resume = ({ posts, title, description, ...props }) => {
 
         #cont {
           margin: 2%;
-          padding: 0;
+          padding-top: 1%;
         }
       `}</style>
     </>
