@@ -137,9 +137,11 @@ const Answers = ({ posts, title, description, ...props }) => {
         </h3>
         <p>
           <em>
-            For the last several years I have worked in fine woodworking. After
-            I stopped teaching, it took me a number of years to decide on a new
-            career.
+            Over the last several years I have worked in fine woodworking and
+            concrete construction. After I stopped teaching, it took me a number
+            of years to decide on a new career. Those jobs suited me at the time
+            because they require considerable concentration, patience, and
+            attention to detail.
           </em>
         </p>
         <h3>11. Please tell us three random things about yourself.</h3>
