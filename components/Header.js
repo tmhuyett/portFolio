@@ -9,10 +9,10 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="https://github.com/prokopious">
-            <a><AiOutlineGithub /></a>
+            <a><AiOutlineGithub className="blue" /></a>
           </Link>
           <Link href="https://www.linkedin.com/in/todd-huyett-2596a892/">
-            <a><AiFillLinkedin /></a>
+            <a><AiFillLinkedin className="blue" /></a>
           </Link>
 
       
@@ -34,6 +34,7 @@ export default function Header() {
           align-items: center;
           padding-left: 20px;
           margin: 0;
+          background-color: rgba(192, 191, 191, 0.253);
         }
         nav {
           
@@ -41,7 +42,7 @@ export default function Header() {
           font-weight: bold;
           font-size: calc(16px + .5vw);
           align-items: center;
-          
+          padding-top: 10px;
         }
 
         a {

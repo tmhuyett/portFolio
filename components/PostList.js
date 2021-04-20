@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AiOutlineGithub } from 'react-icons/ai'
 
 export default function PostList({ posts }) {
   if (posts === 'undefined') return null
@@ -11,9 +12,11 @@ export default function PostList({ posts }) {
           posts.map((post) => {
             return (
               <div className="z" key={post.slug}>
-                 {` `}
-                <Link href={{ pathname: `/post/${post.slug}` }}>
-                  <a>{post?.frontmatter?.title}</a>
+             <div className="y"><Link href={{ pathname: `${post.frontmatter.repo}` }}>
+            <a id="git"><AiOutlineGithub className="blue" /></a>
+          </Link> </div>
+                <Link className="pad" href={{ pathname: `${post.frontmatter.url}` }} target="_blank">
+                  <a className="pad">{post?.frontmatter?.title}</a>
                 </Link>
                 
               
@@ -46,7 +49,7 @@ export default function PostList({ posts }) {
           padding-top: 10px;
 }
         a:hover {
-          color: black;
+          color: blue;
         }
 
         
