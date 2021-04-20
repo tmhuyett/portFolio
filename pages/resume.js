@@ -68,6 +68,12 @@ const Resume = ({ posts, title, description, ...props }) => {
             education center
           </li>
         </ul>
+        <h3>References</h3>
+        <p id="ref1">
+        Tom Giles | (804) 921-5593 | tgiles@kforce.com</p>
+        <p id="ref2">
+        Wayne Gray | (703) 376-1474 | waynegray82@gmail.com
+        </p>
       </div>
       <style jsx>{`
         .title {
@@ -86,6 +92,14 @@ const Resume = ({ posts, title, description, ...props }) => {
         a {
           padding-top: 0;
           margin-top: 5px;
+        }
+        #ref1 {
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+        #ref2 {
+          padding-top: 0;
+          margin-top: 0;
         }
 
         #links {

@@ -1,11 +1,11 @@
 ---
-title: "Gatsby + Shopify Icon Shop"
+title: "Gatsby + Stripe + Netlify Functions"
 author: "Todd"
 date: "2020-04-29"
 ---
 
-The purpose of this had nothing to do with artistic beauty. I merely wanted to learn to configure Gatsby and Shopify.
+This site was built using Netlify serverless functions and Stripe.
 
-#### [Live Demo](https://optimistic-spence-02adf6.netlify.app/)
+#### [Live Demo](https://sad-allen-91bf7d.netlify.app/)
 
-#### [Repo](https://github.com/prokopious/gatShop/)
+#### [Repo](https://github.com/prokopious/functions)
