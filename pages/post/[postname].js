@@ -10,7 +10,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
     <>
-      <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+       <div id="cont"><Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
       <div id="container">
         <div className="back">
           ←{' '}
@@ -31,7 +31,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
             <ReactMarkdown source={markdownBody} />
           </div>
         </article></div>
-      </Layout>
+      </Layout></div>
       <style jsx>{`
      
         #container {
