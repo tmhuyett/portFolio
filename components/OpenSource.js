@@ -17,7 +17,7 @@ export default function OpenSource() {
             className="pad"
             href="https://gatsby-starter-stripe.netlify.app/"
           >
-            <a className="pad">Gatsby eCommerce Starter (React.js)</a>
+            <a className="pad">React eCommerce Starter</a>
           </Link>
         </div>
       </ul>
