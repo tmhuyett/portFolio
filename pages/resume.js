@@ -46,13 +46,13 @@ const Resume = ({ posts, title, description, ...props }) => {
         <h3>Education</h3>
         <p>George Mason University | B.A. Economics | 2008</p>
         <ul className="list">
-          <li>Participated in two Spanish-language theater productions</li>
-          <li>GPA of 3.2</li>
+          <li>-Participated in two Spanish-language theater productions</li>
+          <li>-GPA of 3.2</li>
         </ul>
 
         <p>International House Prague | CELTA | 2008</p>
         <ul className="list">
-          <li>Certified to teach English as a foreign language</li>
+          <li>-Certified to teach English as a foreign language</li>
         </ul>
 
         <h3>Experience</h3>
@@ -61,17 +61,15 @@ const Resume = ({ posts, title, description, ...props }) => {
         </p>
         <ul className="list">
           <li>
-            Taught English to multinational groups of adult and adolescent
+            -Taught English to multinational groups of adult and adolescent
             students
           </li>
           <li>
-            Handled curriculum development and standardized testing for the
+            -Handled curriculum development and standardized testing for the
             education center
           </li>
         </ul>
-        <h3>References</h3>
-        <p id="ref1">Tom Giles | (804) 921-5593 | tgiles@kforce.com</p>
-        <p id="ref2">Wayne Gray | (703) 376-1474 | waynegray82@gmail.com</p>
+
       </div>
       <style jsx>{`
         .title {
@@ -90,6 +88,7 @@ const Resume = ({ posts, title, description, ...props }) => {
         a {
           padding-top: 0;
           margin-top: 5px;
+          
         }
         #ref1 {
           padding-bottom: 0;
@@ -121,8 +120,9 @@ const Resume = ({ posts, title, description, ...props }) => {
         .list {
           padding-top: 0;
           margin-top: 5px;
-
+          list-style-type: none;
           font-size: 14px;
+          font-weight: bold;
         }
 
         h3 {
@@ -133,6 +133,7 @@ const Resume = ({ posts, title, description, ...props }) => {
         hr {
           color: #f0f0f0;
         }
+      
         p {
           padding-left: 20px;
           font-size: 18px;
@@ -148,8 +149,20 @@ const Resume = ({ posts, title, description, ...props }) => {
         }
 
         #cont {
-          margin: 2%;
-          padding-top: 1%;
+          margin: 0%;
+          padding-top: 0%;
+          margin-left: 3%;
+          margin-bottom: 100px;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+          #cont {
+            margin: 0%;
+            padding-top: 0%;
+            margin-left: 0%;
+            margin-bottom: 100px;
+          }
         }
       `}</style>
     </>

@@ -3,6 +3,7 @@ import PostList from "@components/PostList";
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import Head from "next/head";
+import OpenSource from '@components/OpenSource';
 
 import getPosts from "@utils/getPosts";
 
@@ -24,6 +25,10 @@ const Index = ({ posts, title, description, ...props }) => {
         <h3 className="description">Recent projects:</h3>
         <main>
           <PostList posts={posts} />
+        </main>
+        <h3 className="description">Open-source contributions:</h3>
+        <main>
+          <OpenSource />
         </main>
 
         <h3>About:</h3>

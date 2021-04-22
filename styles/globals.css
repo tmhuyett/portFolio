@@ -15,21 +15,19 @@
       format("svg");
 }
 
-
 html {
-
   font-family: "Tiempos Text Regular";
-  background-image: linear-gradient(rgba(238, 238, 238, 0.377), rgb(255, 255, 255));
-
+  background-image: linear-gradient(
+    rgba(238, 238, 238, 0.377),
+    rgb(255, 255, 255)
+  );
 }
-
 
 html,
 body {
   margin-left: 5px;
   padding: 0;
   max-width: 960px;
-
 }
 
 h4 {
@@ -45,7 +43,7 @@ h2 {
   margin-top: 0;
   padding-top: 0;
   color: gray;
-} 
+}
 
 h1 {
   padding-bottom: 0;
@@ -58,8 +56,8 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-.z {
-  padding-bottom: 0px;
+  .z {
+    padding-bottom: 0px;
   }
   #cont {
     margin: 0%;
@@ -67,10 +65,7 @@ h1 {
 }
 
 .pad {
-
-
   padding-left: 20px;
-
 }
 
 .z {
@@ -85,7 +80,6 @@ h1 {
 
 .y {
   padding-top: 2px;
-
 }
 
 .blue {
@@ -96,10 +90,6 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-a:hover {
-
-}
-
 ul {
-  padding-left: 20px;
+  padding-left: 2.5em;
 }
