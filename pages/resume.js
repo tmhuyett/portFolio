@@ -23,7 +23,7 @@ const Resume = ({ posts, title, description, ...props }) => {
             LinkedIn
           </a>
           <span>&nbsp;|&nbsp;</span>
-          <a href="https://github.com/prokopious">GitHub</a>
+          <a href="https://github.com/tmhuyett">GitHub</a>
           <span>&nbsp;|&nbsp;</span>
           <a href="https://sharp-swartz-db05e5.netlify.app/">Portfolio</a>
         </p>
@@ -69,7 +69,6 @@ const Resume = ({ posts, title, description, ...props }) => {
             education center
           </li>
         </ul>
-
       </div>
       <style jsx>{`
         .title {
@@ -88,7 +87,6 @@ const Resume = ({ posts, title, description, ...props }) => {
         a {
           padding-top: 0;
           margin-top: 5px;
-          
         }
         #ref1 {
           padding-bottom: 0;
@@ -133,7 +131,7 @@ const Resume = ({ posts, title, description, ...props }) => {
         hr {
           color: #f0f0f0;
         }
-      
+
         p {
           padding-left: 20px;
           font-size: 18px;
@@ -156,7 +154,6 @@ const Resume = ({ posts, title, description, ...props }) => {
         }
 
         @media only screen and (max-width: 600px) {
-
           #cont {
             margin: 0%;
             padding-top: 0%;
