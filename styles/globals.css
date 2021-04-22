@@ -18,7 +18,7 @@
 html {
   font-family: "Tiempos Text Regular";
   background-image: linear-gradient(
-    rgba(238, 238, 238, 0.377),
+    rgba(238, 238, 238, 0.719),
     rgb(255, 255, 255)
   );
 }
@@ -28,6 +28,12 @@ body {
   margin-left: 5px;
   padding: 0;
   max-width: 960px;
+}
+
+html {
+
+
+  
 }
 
 h4 {
