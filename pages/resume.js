@@ -34,12 +34,13 @@ const Resume = ({ posts, title, description, ...props }) => {
         </p>
         <h3>Skills</h3>
         <ul>
-          <li>JavaScript (React, Vue, and Vanilla JS)</li>
+          <li>JavaScript, HTML, CSS, GraphQL</li>
+          <li>Netlify, React, GitHub, Sanity, Stripe</li>
           <li>Curriculum development</li>
           <li>Language pedagogy</li>
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
-          <li>Microsoft Office</li>
+          <li>Language competence in Spanish and Russian</li>
         </ul>
 
         <h3>Education</h3>
@@ -69,11 +70,8 @@ const Resume = ({ posts, title, description, ...props }) => {
           </li>
         </ul>
         <h3>References</h3>
-        <p id="ref1">
-        Tom Giles | (804) 921-5593 | tgiles@kforce.com</p>
-        <p id="ref2">
-        Wayne Gray | (703) 376-1474 | waynegray82@gmail.com
-        </p>
+        <p id="ref1">Tom Giles | (804) 921-5593 | tgiles@kforce.com</p>
+        <p id="ref2">Wayne Gray | (703) 376-1474 | waynegray82@gmail.com</p>
       </div>
       <style jsx>{`
         .title {

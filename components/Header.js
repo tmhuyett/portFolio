@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
-          <Link href="https://github.com/prokopious">
+          <Link href="https://github.com/tmhuyett">
             <a><AiOutlineGithub className="blue" /></a>
           </Link>
           <Link href="https://www.linkedin.com/in/todd-huyett-2596a892/">
