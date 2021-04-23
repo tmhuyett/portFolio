@@ -22,7 +22,7 @@ html {
     rgb(255, 255, 255)
    
   );
-  filter: sepia(8);
+  filter: sepia(30%);
 }
 
 html,
