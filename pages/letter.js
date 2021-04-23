@@ -1,6 +1,12 @@
 import Head from "next/head";
 
+
 import getPosts from "@utils/getPosts";
+
+const date = new Date();
+let date2 = date.toDateString();
+let date3 = date2.slice(2, 4);
+
 
 const Letter = ({ posts, title, description, ...props }) => {
   return (
@@ -17,7 +23,7 @@ const Letter = ({ posts, title, description, ...props }) => {
         <br></br>
         <br></br>
         <br></br>
-        <p>4/22/21</p>
+        <p>{date2}</p>
         <p>To the EAB team:</p>
 
         <p>
