@@ -23,6 +23,7 @@ html {
    
   );
   filter: sepia(30%);
+ 
 }
 
 html,
@@ -30,6 +31,7 @@ body {
   margin-left: 5px;
   padding: 0;
   max-width: 960px;
+
 }
 
 html {

@@ -6,7 +6,7 @@ const date = new Date();
 let date2 = date.toDateString();
 let date3 = date2.slice(2, 4);
 
-const Letter = ({ posts, title, description, ...props }) => {
+const BuddyLetter = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Head>
@@ -25,11 +25,8 @@ const Letter = ({ posts, title, description, ...props }) => {
         <p>To the Buddy Web Design team:</p>
 
         <p>
-          I am writing in regards to your <strong>Independent Contractor – Web Designer & Developer</strong>{" "}. I noted that you all are looking
-          for someone familiar with content-management systems and e-commerce
-          tools (in addition to fundamentals such as JQuery and HTML). I have
-          experience with all of the tools listed, examples of which can be seen
-          in my portfolio here: https://sharp-swartz-db05e5.netlify.app/.
+          I am writing in regards to your <strong>Independent Contractor – Web Designer & Developer</strong>{" "}.
+          I have a diverse set of computing and design skills that could be of benefit to your team. Some of my recent projects are on display here: https://sharp-swartz-db05e5.netlify.app/.
         </p>
         <p>
           Regarding myself, I am a web developer and a former English teacher.
@@ -159,7 +156,7 @@ const Letter = ({ posts, title, description, ...props }) => {
   );
 };
 
-export default Letter;
+export default BuddyLetter;
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`);
