@@ -18,32 +18,33 @@ const Letter = ({ posts, title, description, ...props }) => {
         <br></br>
         <br></br>
         <p>4/22/21</p>
-        <p>To the team:</p>
+        <p>To the EAB team:</p>
 
         <p>
-          I am writing in regards to your front-end developer position. I noted
-          that you all are looking for someone familiar with React.js, CSS
-          fundamentals, and a number of other tools. I have experience with all
-          of the tools listed, examples of which can be seen in my portfolio
-          here: https://sharp-swartz-db05e5.netlify.app/.{" "}
+          I am writing in regards to your{" "}
+          <strong>Associate Web Designer</strong> position. I noted that you all
+          are looking for someone familiar with content-management systems,
+          HTML, CSS, Sass, and Adobe. I have experience with all of the tools
+          listed, examples of which can be seen in my portfolio here:
+          https://sharp-swartz-db05e5.netlify.app/.
         </p>
         <p>
           Regarding myself, I am a web developer and a former English teacher.
           My chief intellectual interest has always been natural languages
           (Greek, Russian, and Spanish), and more recently, I have turned my
-          attention towards the languages of the internet . All of those years
-          studying and teaching natural languages were merely preparation for a
-          career in web development. While still young in my career, I have
-          already acquired a number of valuable skills, both in client-side and
-          server-side programming. I have worked with a number of APIs,
-          including various payment and content-management systems. I have even
-          dabbled in machine-learning libraries, such as TensorFlow.js. I really
-          enjoy making custom tools for websites, such as a bird classifier app
-          that I made for a nature blog.
+          attention towards the languages of the internet and the domain of
+          software development. All of those years studying and teaching natural
+          languages were merely preparation for a career in the digital world.
+          While still young in my career, I have already acquired a number of
+          valuable skills, both in client-side and server-side programming. I
+          have worked with a number of APIs, including various payment and
+          content-management systems. I have even dabbled in machine-learning
+          libraries, such as TensorFlow.js. I bring an unopinionated,
+          non-prescriptivist attitude to the table. Above all, I love to code
+          and want to be part of a team.
         </p>
         <p>
-          I hope to have the opportunity to interview and learn more about your
-          company.{" "}
+          I hope to have the opportunity to interview and learn more about EAB.{" "}
         </p>
         <p>
           Sincerely,
