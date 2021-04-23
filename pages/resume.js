@@ -57,6 +57,13 @@ const Resume = ({ posts, title, description, ...props }) => {
         </ul>
 
         <h3>Experience</h3>
+        <p>doubleZero, Inc. | Web Developer | 2020 - present</p>
+        <ul className="list">
+          <li>
+            -Configured content-management and payment systems for client
+            websites
+          </li>
+        </ul>
         <p>
           Target Training Centre (Abu Dhabi) | English Instructor | 2009 -2011
         </p>
@@ -70,6 +77,11 @@ const Resume = ({ posts, title, description, ...props }) => {
             education center
           </li>
         </ul>
+
+        <h3>Other</h3>
+        <p>
+          I enjoy surfing, linguistics, Byzantine history, and ambient music.
+        </p>
       </div>
       <style jsx>{`
         .title {
