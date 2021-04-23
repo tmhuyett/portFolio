@@ -167,6 +167,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           margin-left: 3%;
           margin-bottom: 100px;
          padding-bottom: 200px;
+ padding-right: 30px;
         }
 
         @media only screen and (max-width: 600px) {

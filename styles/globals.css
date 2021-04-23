@@ -19,10 +19,10 @@ html {
   font-family: "Tiempos Text Regular";
   background-image: linear-gradient(
     rgba(219, 219, 219, 0.719),
-    rgb(255, 255, 255)
+    rgb(230, 228, 228)
    
   );
-  filter: sepia(30%);
+  filter: sepia(20%);
  
 }
 
@@ -65,8 +65,8 @@ h1 {
   margin: 10%;
   margin-top: 2%;
   border-bottom: 2px solid silver;
-  border-right: 3px solid white;
-  background: repeating-linear-gradient(rgba(230, 100, 100, 0)00, #e2e2e2 10px, #9198e523 10px, #9198e534 10px);
+  border-right: 3px solid rgb(241, 241, 241);
+  background: repeating-linear-gradient(rgba(230, 100, 100, 0)00, #e2e2e2 10px, #d4d4d423 10px, #e4e4e434 10px);
 }
 
 @media only screen and (max-width: 600px) {
