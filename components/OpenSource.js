@@ -25,7 +25,7 @@ export default function OpenSource() {
         a {
           font-size: calc(16px + 0.5vw);
 
-          color: #4d4d4d;
+      
           font-family: Baskerville Old Face;
           margin-left: 0px;
 

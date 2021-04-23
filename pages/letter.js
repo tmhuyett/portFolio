@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import getPosts from "@utils/getPosts";
 
-const Resume = ({ posts, title, description, ...props }) => {
+const Letter = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Head>
@@ -13,63 +13,48 @@ const Resume = ({ posts, title, description, ...props }) => {
         />
       </Head>
       <div id="cont">
-        <h1 className="title">Todd Huyett</h1>
-        <h2>Web Developer</h2>
-        <p>
-          703-635-9598 <span>&nbsp;|&nbsp;</span>toddhuyett@gmail.com
-        </p>
-        <p id="links">
-          <a href="https://www.linkedin.com/in/todd-huyett-2596a892/">
-            LinkedIn
-          </a>
-          <span>&nbsp;|&nbsp;</span>
-          <a href="https://github.com/tmhuyett">GitHub</a>
-          <span>&nbsp;|&nbsp;</span>
-          <a href="https://sharp-swartz-db05e5.netlify.app/">Portfolio</a>
-        </p>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p>4/22/21</p>
+        <p>To the team:</p>
+
         <p>
-          Web developer with a particular interest in the creation of custom
-          tools for education, e-commerce, and a variety of other applications.
+          I am writing in regards to your front-end developer position. I noted
+          that you all are looking for someone familiar with React.js, CSS
+          fundamentals, and a number of other tools. I have experience with all
+          of the tools listed, examples of which can be seen in my portfolio
+          here: https://sharp-swartz-db05e5.netlify.app/.{" "}
         </p>
-        <h3>Skills</h3>
-        <ul>
-          <li>JavaScript, Java, HTML</li>
-          <li>Python, SQL, GraphQL</li>
-          <li>Netlify, React, GitHub</li>
-          <li>Stripe, Netlify, Sanity, TypeScript</li>
-          <li>Curriculum development</li>
-          <li>Language pedagogy</li>
-          <li>Adobe Photoshop, Illustrator, InDesign</li>
-          <li>Language competence in Spanish and Russian</li>
-        </ul>
-
-        <h3>Education</h3>
-        <p>George Mason University | B.A. Economics | 2008</p>
-        <ul className="list">
-          <li>-Participated in two Spanish-language theater productions</li>
-          <li>-GPA of 3.2</li>
-        </ul>
-
-        <p>International House Prague | CELTA | 2008</p>
-        <ul className="list">
-          <li>-Certified to teach English as a foreign language</li>
-        </ul>
-
-        <h3>Experience</h3>
         <p>
-          Target Training Centre (Abu Dhabi) | English Instructor | 2009 -2011
+          Regarding myself, I am a web developer and a former English teacher.
+          My chief intellectual interest has always been natural languages
+          (Greek, Russian, and Spanish), and more recently, I have turned my
+          attention towards the languages of the internet . All of those years
+          studying and teaching natural languages were merely preparation for a
+          career in web development. While still young in my career, I have
+          already acquired a number of valuable skills, both in client-side and
+          server-side programming. I have worked with a number of APIs,
+          including various payment and content-management systems. I have even
+          dabbled in machine-learning libraries, such as TensorFlow.js. I really
+          enjoy making custom tools for websites, such as a bird classifier app
+          that I made for a nature blog.
         </p>
-        <ul className="list">
-          <li>
-            -Taught English to multinational groups of adult and adolescent
-            students
-          </li>
-          <li>
-            -Handled curriculum development and standardized testing for the
-            education center
-          </li>
-        </ul>
+        <p>
+          I hope to have the opportunity to interview and learn more about your
+          company.{" "}
+        </p>
+        <p>
+          Sincerely,
+          <br></br>
+          <br></br>
+          Todd Huyett
+          <br></br>
+          <br></br>
+          toddhuyett@gmail.com<br></br>
+          703-635-9598
+        </p>
       </div>
       <style jsx>{`
         .title {
@@ -167,7 +152,7 @@ const Resume = ({ posts, title, description, ...props }) => {
   );
 };
 
-export default Resume;
+export default Letter;
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`);

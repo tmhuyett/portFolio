@@ -99,3 +99,23 @@ h1 {
 ul {
   padding-left: 2.5em;
 }
+
+*  {
+color: black;
+}
+
+*  {
+  color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  html { 
+    background: url(https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
