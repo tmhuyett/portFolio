@@ -72,6 +72,11 @@ const Index = ({ posts, title, description, ...props }) => {
           margin-bottom: 0;
           color: #4d4d4d;
         }
+
+        #cont { 
+
+          border-left: 2px solid silver;
+        }
       `}</style>
     </>
   );

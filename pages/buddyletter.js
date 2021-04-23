@@ -139,6 +139,8 @@ const BuddyLetter = ({ posts, title, description, ...props }) => {
           padding-top: 0%;
           margin-left: 0%;
           margin-bottom: 100px;
+          border-left: 1px solid black;
+          padding-bottom: 200px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -147,6 +149,7 @@ const BuddyLetter = ({ posts, title, description, ...props }) => {
             padding-top: 0%;
             margin-left: 0%;
             margin-bottom: 100px;
+
           }
         }
 

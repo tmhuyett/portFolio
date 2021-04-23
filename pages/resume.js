@@ -144,7 +144,9 @@ const Resume = ({ posts, title, description, ...props }) => {
         hr {
           color: #f0f0f0;
         }
-
+        ul {
+          padding-left: 2.5em;
+        }
         p {
           padding-left: 20px;
           font-size: 18px;
@@ -164,6 +166,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-top: 0%;
           margin-left: 3%;
           margin-bottom: 100px;
+         
         }
 
         @media only screen and (max-width: 600px) {

@@ -29,16 +29,18 @@ export default function Header() {
 
       <style jsx>{`
         header {
-          width: 100%;
+          max-width: 960px%;
 
           height: 100px;
-          border-bottom: 1px solid #4d4d4d2f;
+          border-bottom: 2px solid silver;
           display: flex;
           justify-content: left;
           align-items: center;
-          padding-left: 20px;
+          padding-left: 30px;
           margin: 0;
           background-color: rgba(192, 191, 191, 0.253);
+          border-top: 3px solid white;
+          border-right: 3px solid white;
         }
         nav {
           max-width: 100%;
