@@ -64,6 +64,8 @@ h1 {
 #cont {
   margin: 10%;
   margin-top: 2%;
+  border-bottom: 2px solid silver;
+  border-right: 3px solid white;
   background: repeating-linear-gradient(rgba(230, 100, 100, 0)00, #e2e2e2 10px, #9198e523 10px, #9198e534 10px);
 }
 
@@ -85,10 +87,11 @@ h1 {
   padding: 25px;
   background-color: rgba(192, 191, 191, 0.253);
   margin: 10px;
+  margin-right: 0px;
   padding-bottom: 7px;
 
   border-top: 3px solid white;
-  border-right: 3px solid white;
+
   border-bottom: 2px solid silver;
 }
 

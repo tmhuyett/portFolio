@@ -40,7 +40,7 @@ export default function Header() {
           margin: 0;
           background-color: rgba(192, 191, 191, 0.253);
           border-top: 3px solid white;
-          border-right: 3px solid white;
+ 
         }
         nav {
           max-width: 100%;
