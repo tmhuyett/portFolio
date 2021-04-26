@@ -13,7 +13,7 @@ export default function PostList({ posts }) {
             return (
               <div className="z" key={post.slug}>
              <div className="y"><Link href={{ pathname: `${post.frontmatter.repo}` }}>
-            <a id="git"><AiOutlineGithub className="blue" /></a>
+            <a className="blue"><AiOutlineGithub className="blue" /></a>
           </Link> </div>
                 <Link className="pad" href={{ pathname: `${post.frontmatter.url}` }} target="_blank">
                   <a className="pad">{post?.frontmatter?.title}</a>
@@ -51,9 +51,7 @@ export default function PostList({ posts }) {
  
           padding-top: 10px;
 }
-        a:hover {
-          color: blue;
-        }
+    
 
         
 

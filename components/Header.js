@@ -11,16 +11,16 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="https://github.com/tmhuyett">
-            <a>
+            <a id="git">
               <AiOutlineGithub className="blue" />
             </a>
           </Link>
           <Link href="https://www.linkedin.com/in/todd-huyett-2596a892/">
-            <a>
+            <a id="git">
               <AiFillLinkedin className="blue" />
             </a>
           </Link>
-          <Link href="/resume">
+          <Link id="git" href="/resume">
             <a>
               <BsFillPersonLinesFill className="blue" />
             </a>
@@ -54,19 +54,17 @@ export default function Header() {
           
         }
 
-        a {
-          color: black;
-        }
+ 
 
         #icon {
           padding-right: 20px;
         }
         nav a {
           margin-right: 20px;
-          color: #4d4d4d;
+        
         }
-        nav a:hover {
-          text-decoration: underline;
+        #git:hover {
+          color: blue;
         }
       `}</style>
     </>

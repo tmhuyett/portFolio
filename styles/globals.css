@@ -121,30 +121,38 @@ border-top: 1px solid rgba(255, 255, 255, 0.623);
 }
 
 .y {
-  padding-top: 2px;
+  padding-top: 6px;
 }
 
+
+
 .blue {
-  color: rgb(105, 105, 105);
+  color: rgb(0, 0, 0);
+  
 }
 
 .blue:hover {
-  color: rgb(0, 0, 0);
+  color: blue;
+}
+#git:hover {
+  color: blue;
 }
 
 ul {
  padding-left: 0;
 }
 
-*  {
-color: black;
-}
 
-*  {
-  color: black;
-  }
+
+
 
   a {
     color: black;
   }
+
+  a:hover {
+    color: blue;
+  }
+
+
 
