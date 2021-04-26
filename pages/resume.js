@@ -12,7 +12,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           type="text/css"
         />
       </Head>
-      <div id="cont">
+      <div id="cont2">
         <h1 className="title">Todd Huyett</h1>
         <h2>Web Developer</h2>
         <p>
@@ -161,13 +161,14 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-top: 0;
         }
 
-        #cont {
+        #cont2 {
           margin: 0%;
           padding-top: 0%;
           margin-left: 3%;
           margin-bottom: 100px;
          padding-bottom: 200px;
  padding-right: 30px;
+
         }
 
         @media only screen and (max-width: 600px) {

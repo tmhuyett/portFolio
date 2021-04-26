@@ -17,11 +17,7 @@
 
 html {
   font-family: "Tiempos Text Regular";
-  background-image: linear-gradient(
-    rgba(219, 219, 219, 0.719),
-    rgb(230, 228, 228)
-   
-  );
+
   filter: sepia(20%);
  
 }
@@ -37,7 +33,7 @@ body {
 
 html {
 
-
+background-color: rgb(233, 231, 231);
   
 }
 
@@ -64,9 +60,19 @@ h1 {
 #cont {
   margin: 10%;
   margin-top: 2%;
-  border-bottom: 2px solid silver;
-  border-right: 3px solid rgb(241, 241, 241);
+
+
   background: repeating-linear-gradient(rgba(230, 100, 100, 0)00, #e2e2e2 10px, #d4d4d423 10px, #e4e4e434 10px);
+  background: linear-gradient(var(--bg-angle), var(--bg-start), var(--bg-end));
+  box-shadow: var(--h1) var(--v1) var(--color-dark), 
+              var(--h2) var(--v2) var(--color-light);
+              align-items: center;
+              background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+              box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+               -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+              
+              display: flex;
+              border-left: 1px solid silver;
 }
 
 @media only screen and (max-width: 600px) {
@@ -85,14 +91,32 @@ h1 {
 .z {
   display: flex;
   padding: 25px;
-  background-color: rgba(192, 191, 191, 0.253);
+  background-color: rgba(224, 16, 16, 0.253);
   margin: 10px;
   margin-right: 0px;
   padding-bottom: 7px;
 
-  border-top: 3px solid white;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  align-items: center;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.25),
+   -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+border-top: 1px solid rgba(255, 255, 255, 0.623);
+border-bottom: 1px solid rgba(82, 81, 81, 0.295);
+  display: flex;
+}
 
-  border-bottom: 2px solid silver;
+header {
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  align-items: center;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.25),
+   -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+border-top: 1px solid rgba(255, 255, 255, 0.623);
+border-bottom: 1px solid rgba(82, 81, 81, 0.295);
+  display: flex;
+
 }
 
 .y {

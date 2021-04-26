@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { GiSquirrel } from "react-icons/gi";
 
 export default function Header() {
   return (
@@ -24,6 +25,7 @@ export default function Header() {
               <BsFillPersonLinesFill className="blue" />
             </a>
           </Link>
+   
         </nav>
       </header>
 
@@ -32,15 +34,16 @@ export default function Header() {
           max-width: 960px%;
 
           height: 100px;
-          border-bottom: 2px solid silver;
+          border-bottom: .5px solid silver;
           display: flex;
           justify-content: left;
           align-items: center;
           padding-left: 30px;
           margin: 0;
           background-color: rgba(192, 191, 191, 0.253);
-          border-top: 3px solid white;
- 
+
+
+
         }
         nav {
           max-width: 100%;
@@ -48,6 +51,7 @@ export default function Header() {
           font-size: calc(16px + 0.5vw);
           align-items: center;
           padding-top: 10px;
+          
         }
 
         a {
