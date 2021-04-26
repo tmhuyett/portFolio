@@ -34,7 +34,7 @@ export default function Header() {
           max-width: 960px%;
 
           height: 100px;
-          border-bottom: .5px solid silver;
+        
           display: flex;
           justify-content: left;
           align-items: center;

@@ -16,7 +16,7 @@ const BuddyLetter = ({ posts, title, description, ...props }) => {
           type="text/css"
         />
       </Head>
-      <div id="cont">
+      <div id="cont2">
         <br></br>
         <br></br>
         <br></br>
@@ -134,12 +134,12 @@ const BuddyLetter = ({ posts, title, description, ...props }) => {
           padding-top: 0;
         }
 
-        #cont {
+        #cont2 {
           margin: 0%;
           padding-top: 0%;
           margin-left: 0%;
           margin-bottom: 100px;
-          border-left: 1px solid black;
+       
           padding-bottom: 200px;
         }
 
