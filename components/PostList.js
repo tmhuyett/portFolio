@@ -42,10 +42,13 @@ export default function PostList({ posts }) {
           
         }
 
+
+
         
       
 .z {
   margin-left: 0;
+ 
           padding-top: 10px;
 }
         a:hover {
