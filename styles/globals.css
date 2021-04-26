@@ -71,7 +71,7 @@ h1 {
                -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
               
               display: flex;
-              border-left: 1px solid rgba(192, 192, 192, 0);
+           
 }
 
 @media only screen and (max-width: 600px) {
@@ -95,13 +95,13 @@ h1 {
   margin-right: 0px;
   padding-bottom: 7px;
 
-  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+
   align-items: center;
   background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.25),
    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 border-top: 1px solid rgba(255, 255, 255, 0.089);
-border-bottom: 1px solid rgba(82, 81, 81, 0.116);
+
   display: flex;
 }
 
@@ -113,7 +113,7 @@ header {
   box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.25),
    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 border-top: 1px solid rgba(255, 255, 255, 0.623);
-border-bottom: 1px solid rgba(82, 81, 81, 0.295);
+
   display: flex;
 
 }
