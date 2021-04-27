@@ -77,6 +77,10 @@ const Index = ({ posts, title, description, ...props }) => {
 
  
         }
+        html, body {
+          background-color: rgb(172, 171, 171);
+          
+          }
       `}</style>
     </>
   );

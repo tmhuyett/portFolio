@@ -43,7 +43,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           <li>Adobe Photoshop, Illustrator, InDesign</li>
           <li>Language competence in Spanish and Russian</li>
         </ul>
-
+        <hr></hr>
         <h3>Education</h3>
         <p>George Mason University | B.A. Economics | 2008</p>
         <ul className="list">
@@ -56,8 +56,10 @@ const Resume = ({ posts, title, description, ...props }) => {
           <li>-Certified to teach English as a foreign language</li>
         </ul>
 
+        <hr></hr>
+
         <h3>Experience</h3>
-        <p>doubleZero, Inc. | Web Developer | 2020 - present</p>
+        <p>DoubleZero, Inc. | Web Developer | 2020 - present</p>
         <ul className="list">
           <li>
             -Configured content-management and payment systems for client
@@ -77,7 +79,7 @@ const Resume = ({ posts, title, description, ...props }) => {
             education center
           </li>
         </ul>
-
+        <hr></hr>
         <h3>Other</h3>
         <p>
           I enjoy surfing, linguistics, Byzantine history, and ambient music.
@@ -86,7 +88,7 @@ const Resume = ({ posts, title, description, ...props }) => {
       <style jsx>{`
         .title {
           font-size: calc(30px + 0.5vw);
-          padding-left: 20px;
+
           color: black;
           padding-top: 40px;
         }
@@ -96,6 +98,8 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-bottom: 0;
           margin-bottom: -5px;
         }
+
+  
 
         a {
           padding-top: 0;
@@ -166,9 +170,11 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-top: 0%;
           margin-left: 3%;
           margin-bottom: 100px;
-         padding-bottom: 200px;
- padding-right: 30px;
-
+          padding-bottom: 0px;
+          padding-right: 30px;
+          padding-left: 0;
+          margin-top: 0;
+          
         }
 
         @media only screen and (max-width: 600px) {
@@ -178,6 +184,22 @@ const Resume = ({ posts, title, description, ...props }) => {
             margin-left: 0%;
             margin-bottom: 100px;
           }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        html,
+        p {
+          padding-left: 0;
+        }
+
+        h1 {
+          margin-top: 0;
+        }
+        *, html, body {
+      
         }
       `}</style>
     </>
