@@ -75,11 +75,11 @@ const Index = ({ posts, title, description, ...props }) => {
 
         #cont { 
 
- 
+          max-width: 960px;
         }
         html, body {
           background-color: rgb(172, 171, 171);
-          
+          max-width: 960px;
           }
       `}</style>
     </>

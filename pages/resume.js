@@ -12,6 +12,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           type="text/css"
         />
       </Head>
+      <div id="background">
       <div id="cont2">
         <h1 className="title">Todd Huyett</h1>
         <h2>Web Developer</h2>
@@ -84,6 +85,7 @@ const Resume = ({ posts, title, description, ...props }) => {
         <p>
           I enjoy surfing, linguistics, Byzantine history, and ambient music.
         </p>
+      </div>
       </div>
       <style jsx>{`
         .title {
@@ -169,8 +171,8 @@ const Resume = ({ posts, title, description, ...props }) => {
           margin: 0%;
           padding-top: 0%;
           margin-left: 3%;
-          margin-bottom: 100px;
-          padding-bottom: 0px;
+
+          padding-bottom: 100px;
           padding-right: 30px;
           padding-left: 0;
           margin-top: 0;
@@ -199,7 +201,12 @@ const Resume = ({ posts, title, description, ...props }) => {
           margin-top: 0;
         }
         *, html, body {
-      
+ 
+        }
+
+        #background {
+          background-color: white;
+         
         }
       `}</style>
     </>
