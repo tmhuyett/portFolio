@@ -24,24 +24,29 @@ const Resume = ({ posts, title, description, ...props }) => {
             LinkedIn
           </a>
           <span>&nbsp;|&nbsp;</span>
-          <a href="https://github.com/tmhuyett">GitHub</a>
+          <a href="https://github.com/prokopious">GitHub</a>
           <span>&nbsp;|&nbsp;</span>
           <a href="https://sharp-swartz-db05e5.netlify.app/">Portfolio</a>
         </p>
         <br></br>
         <p>
-          Web developer with a particular interest in the creation of custom
-          tools for education, e-commerce, and a variety of other applications.
+          Natural-language and computer specialist.
         </p>
         <h3>Skills</h3>
         <ul>
-          <li>JavaScript, Java, HTML</li>
-          <li>Python, SQL, GraphQL</li>
-          <li>Netlify, React, GitHub</li>
-          <li>Stripe, Netlify, Sanity, TypeScript</li>
+          <div>IT:</div><br></br>
+
+          <li>JavaScript, Java, HTML, CSS, TypeScript</li>
+          <li>GraphQL, MySQL, SQL, Git, GitHub</li>
+          <li>Spring Boot, Maven, JUnit, IntelliJ, Heroku, Vercel</li>
+          <li>Netlify, React (Next.js, Gatsby.js), Visual Studio Code</li>
+          <li><b>AWS:</b> Amplify, AppSync, Cognito, DynamoDB, IAM, API Gateway</li>
+          <br></br>
+          <div>Other:</div><br></br>
+  
           <li>Curriculum development</li>
           <li>Language pedagogy</li>
-          <li>Adobe Photoshop, Illustrator, InDesign</li>
+          <li>Adobe Photoshop, Illustrator, Microsoft Office</li>
           <li>Language competence in Spanish and Russian</li>
         </ul>
         <hr></hr>
@@ -52,6 +57,12 @@ const Resume = ({ posts, title, description, ...props }) => {
           <li>-GPA of 3.2</li>
         </ul>
 
+        <p>Udacity | <a href="https://graduation.udacity.com/confirm/PJKN6WEK/">Java Programming Nanodegree</a> | 2021</p>
+        <ul className="list">
+          <li>Studied Java programming, development, deployment, and unit testing</li>
+        </ul>
+
+
         <p>International House Prague | CELTA | 2008</p>
         <ul className="list">
           <li>-Certified to teach English as a foreign language</li>
@@ -60,10 +71,10 @@ const Resume = ({ posts, title, description, ...props }) => {
         <hr></hr>
 
         <h3>Experience</h3>
-        <p>DoubleZero, Inc. | Web Developer | 2020 - present</p>
+        <p>          <a href="https://www.hanoverwebstudios.com/">Hanover Web Studios, Inc.</a> | Web Developer | 2020 - present</p>
         <ul className="list">
           <li>
-            -Configured content-management and payment systems for client
+            -Configure content management systems and checkout flows for e-commerce
             websites
           </li>
         </ul>
@@ -83,7 +94,7 @@ const Resume = ({ posts, title, description, ...props }) => {
         <hr></hr>
         <h3>Other</h3>
         <p>
-          I enjoy surfing, linguistics, Byzantine history, and ambient music.
+          I enjoy coding, linguistics, history, and classical music.
         </p>
       </div>
       </div>

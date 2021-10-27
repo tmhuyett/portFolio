@@ -11,21 +11,25 @@ export default function PostList({ posts }) {
         {posts &&
           posts.map(post => {
             return (
-              <div className="z" key={post.slug}>
-                <div className="y">
+              <div className="q">
+                <div className="boxa">
                   <Link href={{ pathname: `${post.frontmatter.repo}` }}>
-                    <a className="blue">
-                      <AiOutlineGithub className="blue" />
+                    <a>
+                      <AiOutlineGithub />
                     </a>
-                  </Link>{" "}
+                  </Link>
                 </div>
-                <Link
-                  className="pad"
-                  href={{ pathname: `${post.frontmatter.url}` }}
-                  target="_blank"
-                >
-                  <a className="pad">{post?.frontmatter?.title}</a>
-                </Link>
+                <div className="boxb" key={post.slug}>
+                  <Link
+                  
+                    href={{ pathname: `${post.frontmatter.url}` }}
+                    target="_blank"
+                  >
+                    <a>{post?.frontmatter?.title}</a>
+                  </Link>
+                </div>
+                <div className="boxc">{post?.frontmatter?.description}</div>
+        
               </div>
             )
           })}

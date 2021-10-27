@@ -1,5 +1,6 @@
 import Layout from "@components/Layout";
 import PostList from "@components/PostList";
+import PostList2 from "@components/PostList2";
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import Head from "next/head";
@@ -24,12 +25,12 @@ const Index = ({ posts, title, description, ...props }) => {
 
         <h3 className="description">Recent projects:</h3>
         <main>
-          <PostList posts={posts} />
+          <PostList2 posts={posts} />
         </main>
-        <h3 className="description">Open-source contributions:</h3>
-        <main>
+        {/* <h3 className="description">Open-source contributions:</h3> */}
+        {/* <main>
           <OpenSource />
-        </main>
+        </main> */}
 
         <h3>About:</h3>
         <p>
@@ -52,11 +53,8 @@ const Index = ({ posts, title, description, ...props }) => {
         h2 {
           padding-left: 22px;
           font-size: calc(18px + 0.3vw);
-
           style: bold;
-
           padding-top: 0;
-        
           color: #4d4d4d;
         }
         h3 {

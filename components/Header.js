@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
-          <Link href="https://github.com/tmhuyett">
+          <Link href="https://github.com/prokopious">
             <a id="git">
               <AiOutlineGithub className="blue" />
             </a>
