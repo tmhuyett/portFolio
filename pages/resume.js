@@ -26,7 +26,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           <span>&nbsp;|&nbsp;</span>
           <a href="https://github.com/prokopious">GitHub</a>
           <span>&nbsp;|&nbsp;</span>
-          <a href="https://sharp-swartz-db05e5.netlify.app/">Portfolio</a>
+          <a href="https://toddhuyett.com/">Portfolio</a>
         </p>
         <br></br>
         <p>
