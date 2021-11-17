@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from "next/head"
 
-import getPosts from "@utils/getPosts";
+import getPosts from "@utils/getPosts"
 
 const Resume = ({ posts, title, description, ...props }) => {
   return (
@@ -13,90 +13,116 @@ const Resume = ({ posts, title, description, ...props }) => {
         />
       </Head>
       <div id="background">
-      <div id="cont2">
-        <h1 className="title">Todd Huyett</h1>
-        <h2>Web Developer</h2>
-        <p>
-          703-635-9598 <span>&nbsp;|&nbsp;</span>toddhuyett@gmail.com
-        </p>
-        <p id="links">
-          <a href="https://www.linkedin.com/in/todd-huyett-2596a892/">
-            LinkedIn
-          </a>
-          <span>&nbsp;|&nbsp;</span>
-          <a href="https://github.com/prokopious">GitHub</a>
-          <span>&nbsp;|&nbsp;</span>
-          <a href="https://toddhuyett.com/">Portfolio</a>
-        </p>
-        <br></br>
-        <p>
-          Natural-language and computer specialist.
-        </p>
-        <h3>Skills</h3>
-        <ul>
-          <div>IT:</div><br></br>
-
-          <li>JavaScript, Java, HTML, CSS, TypeScript</li>
-          <li>GraphQL, MySQL, SQL, Git, GitHub</li>
-          <li>Spring Boot, Maven, JUnit, IntelliJ, Heroku, Vercel</li>
-          <li>Netlify, React (Next.js, Gatsby.js), Visual Studio Code</li>
-          <li><b>AWS:</b> Amplify, AppSync, Cognito, DynamoDB, IAM, API Gateway</li>
+        <div id="cont2">
+          <h1 className="title">Todd Huyett</h1>
+          <h2>Web Developer</h2>
+          <p>
+            703-635-9598 <span>&nbsp;|&nbsp;</span>toddhuyett@gmail.com
+          </p>
+          <p id="links">
+            <a href="https://www.linkedin.com/in/todd-huyett-2596a892/">
+              LinkedIn
+            </a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="https://github.com/prokopious">GitHub</a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="https://toddhuyett.com/">Portfolio</a>
+          </p>
           <br></br>
-          <div>Other:</div><br></br>
-  
-          <li>Curriculum development</li>
-          <li>Language pedagogy</li>
-          <li>Adobe Photoshop, Illustrator, Microsoft Office</li>
-          <li>Language competence in Spanish and Russian</li>
-        </ul>
-        <hr></hr>
-        <h3>Education</h3>
-        <p>George Mason University | B.A. Economics | 2008</p>
-        <ul className="list">
-          <li>-Participated in two Spanish-language theater productions</li>
-          <li>-GPA of 3.2</li>
-        </ul>
+          <p>Natural-language and computer specialist.</p>
+          <h3>Skills</h3>
+          <ul>
+            <div>IT:</div>
+            <br></br>
 
-        <p>Udacity | <a href="https://graduation.udacity.com/confirm/PJKN6WEK/">Java Programming Nanodegree</a> | 2021</p>
-        <ul className="list">
-          <li>Studied Java programming, development, deployment, and unit testing</li>
-        </ul>
+            <li>JavaScript, Java, HTML, CSS, TypeScript</li>
+            <li>GraphQL, MySQL, SQL, Git, GitHub</li>
+            <li>Spyder, Python</li>
+            <li>Spring Boot, Maven, JUnit, IntelliJ, Heroku, Vercel</li>
+            <li>Netlify, React (Next.js, Gatsby.js), Visual Studio Code</li>
+            <li>
+              <b>AWS:</b> Amplify, AppSync, Cognito, DynamoDB, IAM, API Gateway
+            </li>
+            <br></br>
+            <div>Other:</div>
+            <br></br>
 
+            <li>Curriculum development</li>
+            <li>Language pedagogy</li>
+            <li>Adobe Photoshop, Illustrator, Microsoft Office</li>
+            <li>Language competence in Spanish and Russian</li>
+          </ul>
+          <hr></hr>
+          <h3>Education</h3>
+          <p>George Mason University | B.A. Economics | 2008</p>
+          <ul className="list">
+            <li>-Participated in two Spanish-language theater productions</li>
+            <li>-GPA of 3.2</li>
+          </ul>
 
-        <p>International House Prague | CELTA | 2008</p>
-        <ul className="list">
-          <li>-Certified to teach English as a foreign language</li>
-        </ul>
+          <p>
+            Udacity |{" "}
+            <a href="https://graduation.udacity.com/confirm/PJKN6WEK/">
+              Java Programming Nanodegree
+            </a>{" "}
+            | 2021
+          </p>
+          <ul className="list">
+            <li>
+              Studied Java programming, development, deployment, and unit
+              testing
+            </li>
+          </ul>
 
-        <hr></hr>
+          <p>
+            Wesleyan University |{" "}
+            <a href="http://coursera.org/verify/AAU3RUGGRGQC">
+              Python Programming: A Concise Introduction
+            </a>{" "}
+            | 2021
+          </p>
+          <ul className="list">
+            <li>Python syntax and development</li>
+          </ul>
 
-        <h3>Experience</h3>
-        <p>          <a href="https://www.hanoverwebstudios.com/">Hanover Web Studios, Inc.</a> | Web Developer | 2020 - present</p>
-        <ul className="list">
-          <li>
-            -Configure content management systems and checkout flows for e-commerce
-            websites
-          </li>
-        </ul>
-        <p>
-          Target Training Centre (Abu Dhabi) | English Instructor | 2009 -2011
-        </p>
-        <ul className="list">
-          <li>
-            -Taught English to multinational groups of adult and adolescent
-            students
-          </li>
-          <li>
-            -Handled curriculum development and standardized testing for the
-            education center
-          </li>
-        </ul>
-        <hr></hr>
-        <h3>Other</h3>
-        <p>
-          I enjoy coding, linguistics, history, and classical music.
-        </p>
-      </div>
+          <p>International House Prague | CELTA | 2008</p>
+          <ul className="list">
+            <li>-Certified to teach English as a foreign language</li>
+          </ul>
+
+          <hr></hr>
+
+          <h3>Experience</h3>
+          <p>
+            {" "}
+            <a href="https://www.hanoverwebstudios.com/">
+              Hanover Web Studios, Inc.
+            </a>{" "}
+            | Web Developer | 2020 - present
+          </p>
+          <ul className="list">
+            <li>
+              -Configure content management systems and checkout flows for
+              e-commerce websites
+            </li>
+          </ul>
+          <p>
+            Target Training Centre (Abu Dhabi) | English Instructor | 2009 -2011
+          </p>
+          <ul className="list">
+            <li>
+              -Taught English to multinational groups of adult and adolescent
+              students
+            </li>
+            <li>
+              -Handled curriculum development and standardized testing for the
+              education center
+            </li>
+          </ul>
+          <hr></hr>
+          <h3>Other</h3>
+          <p>I enjoy coding, linguistics, history, and classical music.</p>
+        </div>
       </div>
       <style jsx>{`
         .title {
@@ -111,8 +137,6 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-bottom: 0;
           margin-bottom: -5px;
         }
-
-  
 
         a {
           padding-top: 0;
@@ -187,7 +211,6 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-right: 30px;
           padding-left: 0;
           margin-top: 0;
-          
         }
 
         @media only screen and (max-width: 600px) {
@@ -211,27 +234,27 @@ const Resume = ({ posts, title, description, ...props }) => {
         h1 {
           margin-top: 0;
         }
-        *, html, body {
- 
+        *,
+        html,
+        body {
         }
 
         #background {
           background-color: white;
-         
         }
       `}</style>
     </>
-  );
-};
+  )
+}
 
-export default Resume;
+export default Resume
 
 export async function getStaticProps() {
-  const configData = await import(`../siteconfig.json`);
+  const configData = await import(`../siteconfig.json`)
 
-  const posts = ((context) => {
-    return getPosts(context);
-  })(require.context("../posts", true, /\.md$/));
+  const posts = (context => {
+    return getPosts(context)
+  })(require.context("../posts", true, /\.md$/))
 
   return {
     props: {
@@ -239,5 +262,5 @@ export async function getStaticProps() {
       title: configData.default.title,
       description: configData.default.description,
     },
-  };
+  }
 }
