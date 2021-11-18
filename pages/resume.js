@@ -57,7 +57,6 @@ const Resume = ({ posts, title, description, ...props }) => {
           <p>George Mason University | B.A. Economics | 2008</p>
           <ul className="list">
             <li>-Participated in two Spanish-language theater productions</li>
-            <li>-GPA of 3.2</li>
           </ul>
 
           <p>
