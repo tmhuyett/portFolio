@@ -80,7 +80,7 @@ const Resume = ({ posts, title, description, ...props }) => {
             | 2021
           </p>
           <ul className="list">
-            <li>Python syntax and development</li>
+            <li>SQL and MySQL</li>
           </ul>
           <p>
             Wesleyan University |{" "}
