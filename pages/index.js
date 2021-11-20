@@ -60,6 +60,24 @@ const Index = ({ posts, title, description, ...props }) => {
             </div>
             <div className="boxc">This course covered Python syntax and fundamentals.</div>
           </div>
+          <div className="q">
+            <div className="boxa">
+              <Link href={{ pathname: `www.google.com` }}>
+                <div>
+                  <img
+                    id="log"
+                    src="https://media-exp1.licdn.com/dms/image/C4E0BAQFGfERBPGurCg/company-logo_100_100/0/1519856309184?e=1645660800&v=beta&t=ruaURv966Uh9wsWwmt6-BFZnpxmlZP7D93P7JGwRCGQ"
+                  />
+                </div>
+              </Link>
+            </div>
+          <div className="boxb">
+              <a href="http://coursera.org/verify/WV6JGCEM4W2U">
+                University of Michigan | Introduction to Structured Query Language{" "}
+              </a>
+            </div>
+            <div className="boxc">SQL fundamentals and MySQL.</div>
+          </div>
 
           <div className="q">
             <div className="boxa">

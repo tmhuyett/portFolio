@@ -72,7 +72,16 @@ const Resume = ({ posts, title, description, ...props }) => {
               testing
             </li>
           </ul>
-
+          <p>
+            University of Michigan |{" "}
+            <a href="http://coursera.org/verify/WV6JGCEM4W2U">
+              Introduction to Structured Query Language
+            </a>{" "}
+            | 2021
+          </p>
+          <ul className="list">
+            <li>Python syntax and development</li>
+          </ul>
           <p>
             Wesleyan University |{" "}
             <a href="http://coursera.org/verify/AAU3RUGGRGQC">
