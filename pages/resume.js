@@ -110,7 +110,7 @@ const Resume = ({ posts, title, description, ...props }) => {
           </p>
           <ul className="list">
             <li>
-              -I currently build cloud-based content management systems, digital
+              -I currently build cloud-based content-management systems, digital
               storefronts, and checkout flows for e-commerce websites
             </li>
           </ul>

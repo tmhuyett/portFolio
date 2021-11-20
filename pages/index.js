@@ -34,9 +34,8 @@ const Index = ({ posts, title, description, ...props }) => {
           <div id="about">
             <h3>About:</h3>
             <p>
-              Before getting into JavaScript, I taught English in various
-              countries. I enjoy coding, Byzantine history, perfumery,
-              squirrels, and linguistics. As a developer, I enjoy learning to
+              Before learning to code, I taught English in various
+              countries. As a developer, I enjoy learning to
               use new frameworks and tools, which is how I spend most of my free
               time.{" "}
             </p>
