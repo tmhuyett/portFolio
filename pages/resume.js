@@ -110,8 +110,8 @@ const Resume = ({ posts, title, description, ...props }) => {
           </p>
           <ul className="list">
             <li>
-              -Configure content management systems and checkout flows for
-              e-commerce websites
+              -I currently build cloud-based content management systems, digital
+              storefronts, and checkout flows for e-commerce websites
             </li>
           </ul>
           <p>
