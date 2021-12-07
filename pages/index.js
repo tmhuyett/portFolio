@@ -34,10 +34,9 @@ const Index = ({ posts, title, description, ...props }) => {
           <div id="about">
             <h3>About:</h3>
             <p>
-              Before learning to code, I taught English in various
-              countries. As a developer, I enjoy learning to
-              use new frameworks and tools, which is how I spend most of my free
-              time.{" "}
+              Before learning to code, I taught English in various countries. As
+              a developer, I enjoy learning to use new frameworks and tools,
+              which is how I spend most of my free time.{" "}
             </p>
             <h3 id="ab">Professional Certifications:</h3>
           </div>
@@ -57,8 +56,11 @@ const Index = ({ posts, title, description, ...props }) => {
                 Wesleyan University | Python Programming: A Concise Introduction{" "}
               </a>
             </div>
-            <div className="boxc">This course covered Python syntax and fundamentals.</div>
+            <div className="boxc">
+              This course covered Python syntax and fundamentals.
+            </div>
           </div>
+
           <div className="q">
             <div className="boxa">
               <Link href={{ pathname: `www.google.com` }}>
@@ -70,12 +72,34 @@ const Index = ({ posts, title, description, ...props }) => {
                 </div>
               </Link>
             </div>
-          <div className="boxb">
+            <div className="boxb">
               <a href="http://coursera.org/verify/WV6JGCEM4W2U">
-                University of Michigan | Introduction to Structured Query Language{" "}
+                University of Michigan | Introduction to Structured Query
+                Language{" "}
               </a>
             </div>
             <div className="boxc">SQL fundamentals and MySQL.</div>
+          </div>
+          <div className="q">
+            <div className="boxa">
+              <Link href={{ pathname: `www.google.com` }}>
+                <div>
+                  <img
+                    id="log"
+                    src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/3a/37974779f7ad2a04626183c2f8951b/ustLogo.png?auto=format%2Ccompress&dpr=1&w=56px&h=56px&auto=format%2Ccompress&dpr=1&w=&h="
+                  />
+                </div>
+              </Link>
+            </div>
+            <div className="boxb">
+              <a href="https://coursera.org/share/84297a36879c538af185f2ec97b6d6e8">
+                The Hong Kong University of Science and Technology | Server-side
+                Development with NodeJS, Express and MongoDB{" "}
+              </a>
+            </div>
+            <div className="boxc">
+              Server-side JavaScript and NoSQL development.
+            </div>
           </div>
 
           <div className="q">
@@ -94,7 +118,10 @@ const Index = ({ posts, title, description, ...props }) => {
                 Udacity | Java Programming Nanodegree{" "}
               </a>
             </div>
-            <div className="boxc">This program consisted of 3 Java courses and covered everything from fundamentals to unit testing.</div>
+            <div className="boxc">
+              This program consisted of 3 Java courses and covered everything
+              from fundamentals to unit testing.
+            </div>
           </div>
         </Layout>
       </div>

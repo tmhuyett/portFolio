@@ -92,6 +92,16 @@ const Resume = ({ posts, title, description, ...props }) => {
           <ul className="list">
             <li>Python syntax and development</li>
           </ul>
+          <p>
+            The Hong Kong University of Science and Technology |{" "}
+            <a href="http://coursera.org/verify/AAU3RUGGRGQC">
+              Server-side Development with NodeJS, Express and MongoDB
+            </a>{" "}
+            | 2021
+          </p>
+          <ul className="list">
+            <li>Server-side JavaScript and NoSQL development</li>
+          </ul>
 
           <p>International House Prague | CELTA | 2008</p>
           <ul className="list">
