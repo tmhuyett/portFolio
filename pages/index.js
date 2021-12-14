@@ -80,6 +80,31 @@ const Index = ({ posts, title, description, ...props }) => {
             </div>
             <div className="boxc">SQL fundamentals and MySQL.</div>
           </div>
+
+
+          <div className="q">
+            <div className="boxa">
+              <Link href={{ pathname: `www.google.com` }}>
+                <div>
+                  <img
+                    id="log"
+                    src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/a4/7cd68a658840ddbb95c38cdd0bbc8e/aws-logo-icon-PNG-Transparent-Background.png?auto=format%2Ccompress&dpr=1&w=80&h=80"
+                  />
+                </div>
+              </Link>
+            </div>
+            <div className="boxb">
+              <a href="https://coursera.org/share/3649cb857cf8c65d91b3ab22c78125c8">
+              Amazon Web Services | Modern Application Development with Node.js on AWS{" "}
+              </a>
+            </div>
+            <div className="boxc">
+              Amazon fundamentals, Lambda, CloudFront, and API Gateway.
+            </div>
+          </div>
+
+
+
           <div className="q">
             <div className="boxa">
               <Link href={{ pathname: `www.google.com` }}>
