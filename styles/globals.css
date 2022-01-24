@@ -1,23 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/2aa5f6db10ab7b69465c95555c235503?family=Graphik+Semibold);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url(//db.onlinewebfonts.com/c/076550ba1f35c1eeb75f430fee2bb6a9?family=Graphik+Regular);
 
-@import url(//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular);
 
-@font-face {
-  font-family: "Tiempos Text Regular";
-  src: url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.eot");
-  src: url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.svg#Tiempos Text Regular")
-      format("svg");
-}
 
 html {
-  font-family: "Tiempos Text Regular";
+
 
   filter: sepia(20%);
 }
@@ -27,12 +15,16 @@ body {
   margin-left: 5px;
   padding: 0;
   margin: 0px;
+  font-family: "Graphik Regular";
 }
 
 html {
-  background-color: rgb(194, 194, 194);
+  background-color: rgba(46, 46, 126, 0.082);
 }
+h1, h2, h3, h4, h5, h6 {
 
+
+}
 h4 {
   padding: 0;
   margin: 0;
@@ -58,22 +50,7 @@ h1 {
   margin: 10%;
   margin-top: 2%;
 
-  background: linear-gradient(
-    -45deg,
-    rgba(0, 0, 0, 0.651),
-    rgba(255, 255, 255, 0.25)
-  );
-  background: linear-gradient(var(--bg-angle), var(--bg-start), var(--bg-end));
-  box-shadow: var(--h1) var(--v1) var(--color-dark),
-    var(--h2) var(--v2) var(--color-light);
-  align-items: center;
-  background: linear-gradient(
-    -45deg,
-    rgba(0, 0, 0, 0.22),
-    rgba(255, 255, 255, 0.25)
-  );
-  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    0px -8px 12px 0 rgba(255, 255, 255, 0.158);
+
 
   display: flex;
   padding-left: 0px;
@@ -103,7 +80,7 @@ h1 {
   margin-bottom: 30px;
   background: linear-gradient(
     -45deg,
-    rgba(0, 0, 0, 0.178),
+    rgba(0, 0, 0, 0.103),
     rgba(255, 255, 255, 0.25)
   );
   box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.25),
