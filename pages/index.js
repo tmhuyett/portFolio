@@ -32,8 +32,8 @@ const Index = ({ posts, title, description, ...props }) => {
           <OpenSource />
         </main> */}
           <div id="about">
-            <h3>About:</h3>
-            <p>
+            <h3 id="abb">About:</h3>
+            <p id="ab">
               Before learning to code, I taught English in various countries. As
               a developer, I enjoy learning to use new frameworks and tools,
               which is how I spend most of my free time.{" "}
@@ -153,12 +153,20 @@ const Index = ({ posts, title, description, ...props }) => {
       <style jsx>{`
         .title {
           font-size: calc(30px + 0.5vw);
-          padding-left: 20px;
+          padding-left: 40px;
           color: black;
         }
-
+#ab {
+  padding-left: 40px;
+padding-bottom: 10px;
+}
         #about {
-          padding-bottom: 30px;
+          padding-bottom: 20px;
+        
+        }
+
+        #abb {
+          margin-bottom: -20px;
         }
 
         #log {
@@ -169,22 +177,24 @@ const Index = ({ posts, title, description, ...props }) => {
           margin-top: 40px;
         }
         h1 {
-          padding-left: 20px;
-          style: none;
+          padding-left: 40px;
+          
         }
         h2 {
-          padding-left: 22px;
+          padding-left: 42px;
           font-size: calc(18px + 0.3vw);
-          style: bold;
+
           padding-top: 0;
           color: #4d4d4d;
         }
         h3 {
-          padding-left: 20px;
+          padding-left: 40px;
           padding-bottom: 0;
           margin-bottom: 0;
         }
-
+.description {
+  padding-bottom: 15px
+}
         p {
           padding-left: 20px;
           font-size: 16px;
@@ -196,16 +206,14 @@ const Index = ({ posts, title, description, ...props }) => {
           font-size: calc(16px + 0.5vw);
           font-family: Baskerville Old Face;
           margin-left: 0px;
-          style: bold;
+    
         }
 
-        .z {
-          margin-left: 0;
-          padding-top: 10px;
-        }
+     
         #cont {
           max-width: 960px;
           padding-bottom: 50px;
+     
         }
         html,
         body {

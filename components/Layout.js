@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Header from './Header'
+import Header from "./Header"
 
 export default function Layout({ children, pageTitle, description, ...props }) {
   return (
@@ -13,64 +13,34 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       </Head>
       <style jsx global>{`
    
-
-
-       
-        body {
-       
-        
-        
-  
-         
-        }
-
-     
-
-       
         .content {
-          
-        
-    
-          
-          
           display: flex;
           flex-direction: column;
           justify-content: left;
           align-items: left;
           padding-bottom: 40px;
           padding-top: 0px;
-          
         }
 
         footer {
-        
-      
-        
-         
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: left;
           align-items: left;
-         
           height: auto;
           padding: 50px;
           padding-left: 20px;
-         
         }
-        
 
         footer img {
-          
           height: 1rem;
         }
-        
       `}</style>
       <section className="layout">
         <Header />
         <div className="content">{children}</div>
       </section>
-   
     </>
   )
 }
