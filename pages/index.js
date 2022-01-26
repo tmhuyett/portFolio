@@ -184,7 +184,7 @@ const Index = ({ posts, title, description, ...props }) => {
           font-size: calc(18px + 0.3vw);
 
           padding-top: 0;
-          color: #4d4d4d;
+       
         }
         h3 {
           padding-left: 40px;
@@ -199,7 +199,7 @@ const Index = ({ posts, title, description, ...props }) => {
           font-size: 16px;
           padding-bottom: 0;
           margin-bottom: 0;
-          color: #4d4d4d;
+     
         }
         a {
           font-family: "Baskerville Old Face";
