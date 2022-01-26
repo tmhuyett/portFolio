@@ -36,7 +36,7 @@ h4 {
 h2 {
   margin-top: 0;
   padding-top: 0;
-  color: gray;
+  color: rgb(37, 37, 37);
 }
 h1 {
   padding-bottom: 0;
@@ -63,7 +63,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 9fr;
   grid-gap: 10px;
-  color: #444;
+color: rgb(54, 54, 54);
   padding: 30px;
   background-color: rgba(224, 16, 16, 0.253);
   margin-right: 0px;
