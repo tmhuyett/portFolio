@@ -33,7 +33,6 @@ export default function PostList({ posts }) {
       <style jsx>{`
         a {
           font-size: calc(16px + 0.5vw);
-          font-family: Baskerville Old Face;
           margin-left: 0px;
           style: bold;
         }

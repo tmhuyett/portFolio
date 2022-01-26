@@ -1,18 +1,24 @@
 @import url(//db.onlinewebfonts.com/c/2aa5f6db10ab7b69465c95555c235503?family=Graphik+Semibold);
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 @import url(//db.onlinewebfonts.com/c/076550ba1f35c1eeb75f430fee2bb6a9?family=Graphik+Regular);
-
+@import url(//db.onlinewebfonts.com/c/8050e6017c3b848b20a6324507cfba88?family=LTC+Twentieth+Century);
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 html,
 body {
   margin-left: 5px;
   padding: 0;
   margin: 0px;
-  font-family: "Graphik Regular";
+  font-family: "Helvetica";
   background-color: rgb(246, 246, 246);
- 
+  background-image: url("https://images.pexels.com/photos/6634149/pexels-photo-6634149.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+
+}
+h1 {
+  font-family: "Helvetica";
 }
 .boxb {
   padding-top: 5px;
+  font-family: "Baskerville Old Face";
 }
 .boxa {
   margin-right: 30px;
@@ -39,7 +45,7 @@ h1 {
 }
 #cont {
   margin: 10%;
-  margin-top: 2%;
+  margin-top: 0%;
   display: flex;
   padding-left: 0px;
 }

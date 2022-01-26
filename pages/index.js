@@ -81,7 +81,6 @@ const Index = ({ posts, title, description, ...props }) => {
             <div className="boxc">SQL fundamentals and MySQL.</div>
           </div>
 
-
           <div className="q">
             <div className="boxa">
               <Link href={{ pathname: `www.google.com` }}>
@@ -95,15 +94,14 @@ const Index = ({ posts, title, description, ...props }) => {
             </div>
             <div className="boxb">
               <a href="https://coursera.org/share/3649cb857cf8c65d91b3ab22c78125c8">
-              Amazon Web Services | Modern Application Development with Node.js on AWS{" "}
+                Amazon Web Services | Modern Application Development with
+                Node.js on AWS{" "}
               </a>
             </div>
             <div className="boxc">
               Amazon fundamentals, Lambda, CloudFront, and API Gateway.
             </div>
           </div>
-
-
 
           <div className="q">
             <div className="boxa">
@@ -156,13 +154,12 @@ const Index = ({ posts, title, description, ...props }) => {
           padding-left: 40px;
           color: black;
         }
-#ab {
-  padding-left: 40px;
-padding-bottom: 10px;
-}
+        #ab {
+          padding-left: 40px;
+          padding-bottom: 10px;
+        }
         #about {
           padding-bottom: 20px;
-        
         }
 
         #abb {
@@ -178,7 +175,6 @@ padding-bottom: 10px;
         }
         h1 {
           padding-left: 40px;
-          
         }
         h2 {
           padding-left: 42px;
@@ -192,9 +188,9 @@ padding-bottom: 10px;
           padding-bottom: 0;
           margin-bottom: 0;
         }
-.description {
-  padding-bottom: 15px
-}
+        .description {
+          padding-bottom: 15px;
+        }
         p {
           padding-left: 20px;
           font-size: 16px;
@@ -203,21 +199,15 @@ padding-bottom: 10px;
           color: #4d4d4d;
         }
         a {
-          font-size: calc(16px + 0.5vw);
-          font-family: Baskerville Old Face;
-          margin-left: 0px;
-    
+          font-family: "Baskerville Old Face";
         }
 
-     
         #cont {
           max-width: 960px;
           padding-bottom: 50px;
-     
         }
         html,
         body {
-          background-color: rgb(172, 171, 171);
           max-width: 960px;
         }
       `}</style>
