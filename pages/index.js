@@ -18,135 +18,138 @@ const Index = ({ posts, title, description, ...props }) => {
           type="text/css"
         />
       </Head>
-      <div id="cont">
-        <Layout pageTitle={title} description={description}>
-          <h1 className="title">Todd Huyett</h1>
-          <h2>Web Developer</h2>
+      <div id="box">
+        <div id="cont">
+          <Layout pageTitle={title} description={description}>
+            <h1 className="title">Todd Huyett</h1>
+            <h2>Web Developer</h2>
 
-          <h3 className="description">Recent projects:</h3>
-          <main>
-            <PostList2 posts={posts} />
-          </main>
-          {/* <h3 className="description">Open-source contributions:</h3> */}
-          {/* <main>
+            <h3 className="description">Recent projects:</h3>
+            <main>
+              <PostList2 posts={posts} />
+            </main>
+            {/* <h3 className="description">Open-source contributions:</h3> */}
+            {/* <main>
           <OpenSource />
         </main> */}
-          <div id="about">
-            <h3 id="abb">About:</h3>
-            <p id="ab">
-              Before learning to code, I taught English in various countries. As
-              a developer, I enjoy learning to use new frameworks and tools,
-              which is how I spend most of my free time.{" "}
-            </p>
-            <h3 id="ab">Professional Certifications:</h3>
-          </div>
-          <div className="q">
-            <div className="boxa">
-              <Link href={{ pathname: `www.google.com` }}>
-                <div>
-                  <img
-                    id="log"
-                    src="https://www.wesleyan.edu/communications/styleguide/style_guide/images/WU_Identity_monogram_hex_red.png"
-                  />
-                </div>
-              </Link>
+            <div id="about">
+              <h3 id="abb">About:</h3>
+              <p id="ab">
+                Before learning to code, I taught English in various countries.
+                As a developer, I enjoy learning to use new frameworks and
+                tools, which is how I spend most of my free time.{" "}
+              </p>
+              <h3 id="ab">Professional Certifications:</h3>
             </div>
-            <div className="boxb">
-              <a href="http://coursera.org/verify/AAU3RUGGRGQC">
-                Wesleyan University | Python Programming: A Concise Introduction{" "}
-              </a>
+            <div className="q">
+              <div className="boxa">
+                <Link href={{ pathname: `www.google.com` }}>
+                  <div>
+                    <img
+                      id="log"
+                      src="https://www.wesleyan.edu/communications/styleguide/style_guide/images/WU_Identity_monogram_hex_red.png"
+                    />
+                  </div>
+                </Link>
+              </div>
+              <div className="boxb">
+                <a href="http://coursera.org/verify/AAU3RUGGRGQC">
+                  Wesleyan University | Python Programming: A Concise
+                  Introduction{" "}
+                </a>
+              </div>
+              <div className="boxc">
+                This course covered Python syntax and fundamentals.
+              </div>
             </div>
-            <div className="boxc">
-              This course covered Python syntax and fundamentals.
-            </div>
-          </div>
 
-          <div className="q">
-            <div className="boxa">
-              <Link href={{ pathname: `www.google.com` }}>
-                <div>
-                  <img
-                    id="log"
-                    src="https://media-exp1.licdn.com/dms/image/C4E0BAQFGfERBPGurCg/company-logo_100_100/0/1519856309184?e=1645660800&v=beta&t=ruaURv966Uh9wsWwmt6-BFZnpxmlZP7D93P7JGwRCGQ"
-                  />
-                </div>
-              </Link>
+            <div className="q">
+              <div className="boxa">
+                <Link href={{ pathname: `www.google.com` }}>
+                  <div>
+                    <img
+                      id="log"
+                      src="https://media-exp1.licdn.com/dms/image/C4E0BAQFGfERBPGurCg/company-logo_100_100/0/1519856309184?e=1645660800&v=beta&t=ruaURv966Uh9wsWwmt6-BFZnpxmlZP7D93P7JGwRCGQ"
+                    />
+                  </div>
+                </Link>
+              </div>
+              <div className="boxb">
+                <a href="http://coursera.org/verify/WV6JGCEM4W2U">
+                  University of Michigan | Introduction to Structured Query
+                  Language{" "}
+                </a>
+              </div>
+              <div className="boxc">SQL fundamentals and MySQL.</div>
             </div>
-            <div className="boxb">
-              <a href="http://coursera.org/verify/WV6JGCEM4W2U">
-                University of Michigan | Introduction to Structured Query
-                Language{" "}
-              </a>
-            </div>
-            <div className="boxc">SQL fundamentals and MySQL.</div>
-          </div>
 
-          <div className="q">
-            <div className="boxa">
-              <Link href={{ pathname: `www.google.com` }}>
-                <div>
-                  <img
-                    id="log"
-                    src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/a4/7cd68a658840ddbb95c38cdd0bbc8e/aws-logo-icon-PNG-Transparent-Background.png?auto=format%2Ccompress&dpr=1&w=80&h=80"
-                  />
-                </div>
-              </Link>
+            <div className="q">
+              <div className="boxa">
+                <Link href={{ pathname: `www.google.com` }}>
+                  <div>
+                    <img
+                      id="log"
+                      src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/a4/7cd68a658840ddbb95c38cdd0bbc8e/aws-logo-icon-PNG-Transparent-Background.png?auto=format%2Ccompress&dpr=1&w=80&h=80"
+                    />
+                  </div>
+                </Link>
+              </div>
+              <div className="boxb">
+                <a href="https://coursera.org/share/3649cb857cf8c65d91b3ab22c78125c8">
+                  Amazon Web Services | Modern Application Development with
+                  Node.js on AWS{" "}
+                </a>
+              </div>
+              <div className="boxc">
+                Amazon fundamentals, Lambda, CloudFront, and API Gateway.
+              </div>
             </div>
-            <div className="boxb">
-              <a href="https://coursera.org/share/3649cb857cf8c65d91b3ab22c78125c8">
-                Amazon Web Services | Modern Application Development with
-                Node.js on AWS{" "}
-              </a>
-            </div>
-            <div className="boxc">
-              Amazon fundamentals, Lambda, CloudFront, and API Gateway.
-            </div>
-          </div>
 
-          <div className="q">
-            <div className="boxa">
-              <Link href={{ pathname: `www.google.com` }}>
-                <div>
-                  <img
-                    id="log"
-                    src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/3a/37974779f7ad2a04626183c2f8951b/ustLogo.png?auto=format%2Ccompress&dpr=1&w=56px&h=56px&auto=format%2Ccompress&dpr=1&w=&h="
-                  />
-                </div>
-              </Link>
+            <div className="q">
+              <div className="boxa">
+                <Link href={{ pathname: `www.google.com` }}>
+                  <div>
+                    <img
+                      id="log"
+                      src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/3a/37974779f7ad2a04626183c2f8951b/ustLogo.png?auto=format%2Ccompress&dpr=1&w=56px&h=56px&auto=format%2Ccompress&dpr=1&w=&h="
+                    />
+                  </div>
+                </Link>
+              </div>
+              <div className="boxb">
+                <a href="https://coursera.org/share/84297a36879c538af185f2ec97b6d6e8">
+                  The Hong Kong University of Science and Technology |
+                  Server-side Development with NodeJS, Express and MongoDB{" "}
+                </a>
+              </div>
+              <div className="boxc">
+                Server-side JavaScript and NoSQL development.
+              </div>
             </div>
-            <div className="boxb">
-              <a href="https://coursera.org/share/84297a36879c538af185f2ec97b6d6e8">
-                The Hong Kong University of Science and Technology | Server-side
-                Development with NodeJS, Express and MongoDB{" "}
-              </a>
-            </div>
-            <div className="boxc">
-              Server-side JavaScript and NoSQL development.
-            </div>
-          </div>
 
-          <div className="q">
-            <div className="boxa">
-              <Link href={{ pathname: `www.google.com` }}>
-                <div>
-                  <img
-                    id="log"
-                    src="https://www.saashub.com/images/app/service_logos/11/157a3bcc54ad/large.png?1531527862"
-                  />
-                </div>
-              </Link>
+            <div className="q">
+              <div className="boxa">
+                <Link href={{ pathname: `www.google.com` }}>
+                  <div>
+                    <img
+                      id="log"
+                      src="https://www.saashub.com/images/app/service_logos/11/157a3bcc54ad/large.png?1531527862"
+                    />
+                  </div>
+                </Link>
+              </div>
+              <div className="boxb">
+                <a href="https://graduation.udacity.com/confirm/PJKN6WEK/">
+                  Udacity | Java Programming Nanodegree{" "}
+                </a>
+              </div>
+              <div className="boxc">
+                This program consisted of 3 Java courses and covered everything
+                from fundamentals to unit testing.
+              </div>
             </div>
-            <div className="boxb">
-              <a href="https://graduation.udacity.com/confirm/PJKN6WEK/">
-                Udacity | Java Programming Nanodegree{" "}
-              </a>
-            </div>
-            <div className="boxc">
-              This program consisted of 3 Java courses and covered everything
-              from fundamentals to unit testing.
-            </div>
-          </div>
-        </Layout>
+          </Layout>
+        </div>
       </div>
       <style jsx>{`
         .title {
@@ -204,7 +207,7 @@ const Index = ({ posts, title, description, ...props }) => {
 
         #cont {
           max-width: 960px;
-          padding-bottom: 50px;
+      
         }
         html,
         body {
