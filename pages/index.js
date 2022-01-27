@@ -151,10 +151,10 @@ const Index = ({ posts, title, description, ...props }) => {
         }
         #ab {
           padding-left: 40px;
-          padding-bottom: 10px;
+          padding-bottom: 0px;
         }
         #about {
-          padding-bottom: 20px;
+          padding-bottom: 15px;
         }
 
         #abb {
@@ -180,11 +180,11 @@ const Index = ({ posts, title, description, ...props }) => {
         }
         h3 {
           padding-left: 40px;
-          padding-bottom: 0;
-          margin-bottom: 0;
+      
         }
         .description {
-          padding-bottom: 15px;
+          padding-bottom: 0px;
+          padding-top: 20px;
         }
         p {
           padding-left: 20px;
