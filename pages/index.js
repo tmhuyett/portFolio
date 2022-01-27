@@ -1,11 +1,7 @@
 import Layout from "@components/Layout"
-import PostList from "@components/PostList"
 import PostList2 from "@components/PostList2"
 import Link from "next/link"
-import { SocialIcon } from "react-social-icons"
 import Head from "next/head"
-import OpenSource from "@components/OpenSource"
-
 import getPosts from "@utils/getPosts"
 
 const Index = ({ posts, title, description, ...props }) => {
@@ -28,10 +24,6 @@ const Index = ({ posts, title, description, ...props }) => {
             <main>
               <PostList2 posts={posts} />
             </main>
-            {/* <h3 className="description">Open-source contributions:</h3> */}
-            {/* <main>
-          <OpenSource />
-        </main> */}
             <div id="about">
               <h3 id="abb">About:</h3>
               <p id="ab">
@@ -155,7 +147,7 @@ const Index = ({ posts, title, description, ...props }) => {
         .title {
           font-size: calc(30px + 0.5vw);
           padding-left: 40px;
-          color: black;
+    
         }
         #ab {
           padding-left: 40px;
@@ -202,7 +194,7 @@ const Index = ({ posts, title, description, ...props }) => {
      
         }
         a {
-          font-family: "Baskerville Old Face";
+      
         }
 
         #cont {

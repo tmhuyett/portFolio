@@ -24,18 +24,17 @@ export default function Header() {
       <style jsx>{`
         header {
           max-width: 960px;
-          height: 100px;
+          height: 90px;
           display: flex;
           justify-content: left;
           align-items: center;
           padding-left: 40px;
           padding-bottom: 10px;
           margin: 0;
-    
+
         }
         nav {
           max-width: 100%;
-  
           font-size: calc(20px + 0.5vw);
           align-items: center;
           padding-top: 10px;
@@ -45,6 +44,7 @@ export default function Header() {
         }
         nav a {
           margin-right: 20px;
+          color: white;
         }
         #git:hover {
           color: blue;

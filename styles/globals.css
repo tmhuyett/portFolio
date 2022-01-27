@@ -1,19 +1,29 @@
-@import url(//db.onlinewebfonts.com/c/2aa5f6db10ab7b69465c95555c235503?family=Graphik+Semibold);
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
-@import url(//db.onlinewebfonts.com/c/076550ba1f35c1eeb75f430fee2bb6a9?family=Graphik+Regular);
-@import url(//db.onlinewebfonts.com/c/8050e6017c3b848b20a6324507cfba88?family=LTC+Twentieth+Century);
-@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+@import url(//db.onlinewebfonts.com/c/0c453315c27507762e6b9536cfea76a6?family=Frutiger);
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 html,
 body {
   margin-left: 5px;
   padding: 0;
   margin: 0px;
-  font-family: "Helvetica";
-  background-color: #d6d6d61a;
+  font-family: Helvetica;
+ 
 }
-
-.boxb {
-  padding-top: 5px;
+h1 {
+  color: #3f3f42;
+  font-weight: 700;
+}
+h2 {
+  color: #3f3f42;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 600;
+  color: #3f3f42;
+  margin-bottom: 0;
+}
+p {
+  color: #3f3f42;
+  font-weight: 400;
 }
 .boxa {
   margin-right: 30px;
@@ -31,7 +41,6 @@ h4 {
 h2 {
   margin-top: 0;
   padding-top: 0;
-
 }
 h1 {
   padding-bottom: 0;
@@ -53,22 +62,22 @@ h1 {
     margin: 2%;
   }
 }
-
 .q {
   display: grid;
   grid-template-columns: 1fr 9fr;
-  grid-gap: 10px;
-  color: #dfdfdf;
+  grid-gap: 5px;
+  color: #424242;
   padding: 30px;
-  background-color: #000000;
+  background-color: #eeeeee;
   margin-right: 0px;
   margin-bottom: 30px;
 }
 
 a {
-  font-size: calc(18px + 0.2vw);
+  font-size: calc(18px + 0.1vw);
+  color: #424242;
   margin-left: 0px;
-  color: #dfdfdf;
+  font-weight: 700;
 }
 
 .boxa {
@@ -80,14 +89,11 @@ a {
 
 header {
   align-items: center;
-  background-color: #000000;
+  background-color: #09203f;
   display: flex;
-  color: #dfdfdf;
+  color: rgb(255, 255, 255);
 }
 
-.blue {
-  color: rgb(0, 0, 0);
-}
 .blue:hover {
   color: blue;
 }
