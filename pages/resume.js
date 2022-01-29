@@ -200,9 +200,6 @@ const Resume = ({ posts, title, description, ...props }) => {
           padding-bottom: 0;
           margin-bottom: 0;
         }
-        hr {
-          color: #f0f0f0;
-        }
         ul {
           padding-left: 2.5em;
         }

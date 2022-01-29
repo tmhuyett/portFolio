@@ -17,10 +17,12 @@ const Index = ({ posts, title, description, ...props }) => {
       <div id="box">
         <div id="cont">
           <Layout pageTitle={title} description={description}>
+            <div className="nameBox">
             <h1 className="title">Todd Huyett</h1>
             <h2>Web Developer</h2>
-
+            </div>
             <h3 className="description">Recent projects:</h3>
+          
             <main>
               <PostList2 posts={posts} />
             </main>

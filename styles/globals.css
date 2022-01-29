@@ -1,29 +1,37 @@
-@import url(//db.onlinewebfonts.com/c/0c453315c27507762e6b9536cfea76a6?family=Frutiger);
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   margin-left: 5px;
   padding: 0;
   margin: 0px;
-  font-family: Helvetica;
- 
+  font-family: "Helvetica";
+
+}
+#git {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
 }
 h1 {
-  color: #3f3f42;
+
   font-weight: 700;
 }
 h2 {
-  color: #3f3f42;
-  font-weight: 400;
+
+  font-weight: 500;
+  margin-top: -10px;
 }
 h3 {
-  font-weight: 600;
-  color: #3f3f42;
+  font-weight: 500;
+
   margin-bottom: 0;
 }
 p {
-  color: #3f3f42;
-  font-weight: 400;
+
+  font-weight: 300;
 }
 .boxa {
   margin-right: 30px;
@@ -41,11 +49,10 @@ h4 {
 h2 {
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 5px;
 }
 h1 {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  padding-top: 0.5em;
+margin-bottom: 0;
 }
 #cont {
   margin: 10%;
@@ -66,16 +73,19 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 9fr;
   grid-gap: 5px;
-  color: #424242;
-  padding: 30px;
-  background-color: #eeeeee;
+ mix-blend-mode: multiply;
+  padding: 20px;
+  background-image: linear-gradient(80deg, #fdfdfd 0%, #ebedee69 100%);
   margin-right: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+ 
+
+ 
 }
 
 a {
   font-size: calc(18px + 0.1vw);
-  color: #424242;
+  color: #000000;
   margin-left: 0px;
   font-weight: 700;
 }
@@ -87,13 +97,20 @@ a {
   align-items: center;
 }
 
-header {
-  align-items: center;
-  background-color: #09203f;
-  display: flex;
-  color: rgb(255, 255, 255);
+.nameBox {
+  background-image: linear-gradient(80deg, #fdfbfb 0%, #ebedee69 100%);
+  padding-bottom: 20px;
 }
 
+header {
+  align-items: center;
+  background-image: linear-gradient(80deg, #fdfbfb 0%, #ebedee69 100%);
+  display: flex;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.158);
+}
 .blue:hover {
   color: blue;
 }
@@ -106,4 +123,8 @@ ul {
 
 a:hover {
   color: blue;
+}
+
+#box {
+
 }

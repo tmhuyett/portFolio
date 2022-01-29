@@ -30,7 +30,7 @@ export default function Header() {
           align-items: center;
           padding-left: 40px;
           padding-bottom: 10px;
-          margin: 0;
+       
 
         }
         nav {
@@ -44,7 +44,6 @@ export default function Header() {
         }
         nav a {
           margin-right: 20px;
-          color: white;
         }
         #git:hover {
           color: blue;
