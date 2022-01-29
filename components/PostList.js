@@ -34,7 +34,7 @@ export default function PostList({ posts }) {
         a {
           font-size: calc(16px + 0.5vw);
           margin-left: 0px;
-          style: bold;
+
         }
 
         .z {

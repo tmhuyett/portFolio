@@ -195,9 +195,7 @@ const Index = ({ posts, title, description, ...props }) => {
           margin-bottom: 0;
      
         }
-        a {
-      
-        }
+    
 
         #cont {
           max-width: 960px;
