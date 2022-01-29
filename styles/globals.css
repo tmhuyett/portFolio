@@ -10,6 +10,7 @@ body {
   margin: 0px;
   font-family: "Helvetica";
 
+
 }
 #git {
   color: rgb(0, 0, 0);
@@ -73,14 +74,15 @@ margin-bottom: 0;
   display: grid;
   grid-template-columns: 1fr 9fr;
   grid-gap: 5px;
- mix-blend-mode: multiply;
   padding: 20px;
-  background-image: linear-gradient(80deg, #fdfdfd 0%, #ebedee69 100%);
+
   margin-right: 0px;
   margin-bottom: 15px;
- 
 
- 
+  border-bottom: 1px solid rgba(131, 131, 131, 0.158);
+
+  background-image: linear-gradient(90deg, #ffffff 0%, #f5f5f500 100%);
+
 }
 
 a {
@@ -98,18 +100,24 @@ a {
 }
 
 .nameBox {
-  background-image: linear-gradient(80deg, #fdfbfb 0%, #ebedee69 100%);
+
+
+
+
   padding-bottom: 20px;
+
 }
 
 header {
   align-items: center;
-  background-image: linear-gradient(80deg, #fdfbfb 0%, #ebedee69 100%);
   display: flex;
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 3px;
-  border-bottom: 1px solid rgba(177, 177, 177, 0.158);
+  border-bottom: 1px solid rgba(131, 131, 131, 0.158);
+  background-image: linear-gradient(90deg, #ffffff 0%, #f5f5f500 100%);
+
+
 }
 .blue:hover {
   color: blue;
@@ -126,5 +134,5 @@ a:hover {
 }
 
 #box {
-
+  background-image: linear-gradient(300deg, #ffffff 0%, #f5f5f5f8 100%);
 }
