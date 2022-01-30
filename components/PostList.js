@@ -33,12 +33,12 @@ export default function PostList({ posts }) {
       <style jsx>{`
         a {
           font-size: calc(16px + 0.5vw);
-          margin-left: 0px;
+         
 
         }
 
         .z {
-          margin-left: 0;
+     
           padding-top: 10px;
         }
       `}</style>

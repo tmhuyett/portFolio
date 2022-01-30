@@ -24,12 +24,12 @@ export default function Header() {
       <style jsx>{`
         header {
           max-width: 960px;
-          height: 90px;
+    
           display: flex;
           justify-content: left;
           align-items: center;
-          padding-left: 40px;
-          padding-bottom: 10px;
+      
+       
        
 
         }
@@ -37,13 +37,17 @@ export default function Header() {
           max-width: 100%;
           font-size: calc(20px + 0.5vw);
           align-items: center;
-          padding-top: 10px;
+      
         }
         #icon {
           padding-right: 20px;
         }
         nav a {
           margin-right: 20px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          margin-top: 0px;
+          margin-bottom: 0px;
         }
         #git:hover {
           color: blue;

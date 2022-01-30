@@ -18,22 +18,21 @@ const Index = ({ posts, title, description, ...props }) => {
         <div id="cont">
           <Layout pageTitle={title} description={description}>
             <div className="nameBox">
-            <h1 className="title">Todd Huyett</h1>
-            <h2>Web Developer</h2>
-   
+              <h1 className="title">Todd Huyett</h1>
+              <h2>Web Developer</h2>
+
               <p id="ab">
-                Before learning to code, I taught English in various countries.
-                As a developer, I enjoy learning to use new frameworks and
-                tools, which is how I spend most of my free time.{" "}
+                Each of the portfolio items listed below—where
+                applicable—contains a link to a simple frontend to demonstrate
+                the implementation of the various technologies noted in its
+                description. Each listing also contains a GitHub repository
+                link.
               </p>
             </div>
-
-            <h3 className="description">Recent projects:</h3>
-          
             <main>
               <PostList2 posts={posts} />
             </main>
-            <div id="about">
+            {/* <div id="about">
          
               <h3 id="ab">Professional Certifications:</h3>
             </div>
@@ -143,26 +142,16 @@ const Index = ({ posts, title, description, ...props }) => {
                 This program consisted of 3 Java courses and covered everything
                 from fundamentals to unit testing.
               </div>
-            </div>
+            </div> */}
           </Layout>
         </div>
       </div>
       <style jsx>{`
         .title {
           font-size: calc(30px + 0.5vw);
-          padding-left: 40px;
-    
         }
         #ab {
-          padding-left: 40px;
           padding-bottom: 0px;
-        }
-        #about {
-          padding-bottom: 15px;
-        }
-
-        #abb {
-          margin-bottom: -20px;
         }
 
         #log {
@@ -170,38 +159,30 @@ const Index = ({ posts, title, description, ...props }) => {
         }
 
         #ab {
-          margin-top: 40px;
+          margin-top: 30px;
+          margin-bottom: 20px;
         }
         h1 {
-          padding-left: 40px;
         }
         h2 {
-          padding-left: 42px;
           font-size: calc(18px + 0.3vw);
 
           padding-top: 0;
-       
         }
         h3 {
-          padding-left: 40px;
-      
         }
         .description {
           padding-bottom: 0px;
           padding-top: 20px;
         }
         p {
-          padding-left: 20px;
           font-size: 16px;
           padding-bottom: 0;
           margin-bottom: 0;
-     
         }
-    
 
         #cont {
-          max-width: 960px;
-      
+          max-width: 800px;
         }
         html,
         body {
