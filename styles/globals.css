@@ -12,27 +12,27 @@ body {
 
 }
 #git {
-  color: #444444;
+  color: #212427;
   font-size: 16px;
 }
 h1 {
-  color: #444444;
-  font-weight: 700;
+  color: #212427;
+
 }
 h2 {
-  color: #444444;
-  font-weight: 500;
+  color: #212427;
+
   margin-top: -10px;
 }
 h3 {
-  font-weight: 600;
-  color: #444444;
-  margin-bottom: 0;
+
+  color: #212427;
+  margin-bottom: 10px;
   font-size: 16px;
-  margin-left: 4px;
+  margin-left: 0px;
 }
 p {
-  color: #444444;
+  color: #212427;
  
 }
 .boxa {
@@ -81,17 +81,16 @@ margin-bottom: 0;
   margin-right: 0px;
   margin-bottom: 15px;
 
-  border-bottom: 1px solid rgba(95, 95, 95, 0.158);
-  border-left: 1px solid rgba(83, 83, 83, 0.096);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.198);
+  border-left: 1px solid rgba(73, 73, 73, 0.144);
 
-  background-image: linear-gradient(90deg, #ffffff 0%, #f5f5f500 100%);
-
-
+  background-color: rgba(255, 255, 255, 0.336);
+border-radius: 2px;
 }
 
 a {
   font-size: calc(16px + 0.1vw);
-  color: #444444;
+  color: #212427;
   margin-left: 0px;
   font-weight: 700;
 }
@@ -103,10 +102,10 @@ a {
   align-items: center;
 }
 .boxb {
-  color: #444444;
+  color: #212427;
 }
 .boxc {
-  color: #444444;
+  color: #212427;
   font-size: calc(15px + .1vw);
 }
 .nameBox {
@@ -123,10 +122,11 @@ header {
   display: flex;
   margin-top: 10px;
   margin-bottom: 3px;
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(49, 49, 49, 0.089);
+  border-left: 1px solid rgba(172, 172, 172, 0.13);
+  border-right: 1px solid rgba(98, 98, 98, 0.048);
 
-  border-bottom: 1px solid rgba(49, 49, 49, 0.102);
-  border-left: 1px solid rgba(49, 49, 49, 0.102);
-  background-image: linear-gradient(90deg, #ffffff00 0%, #f5f5f500 100%);
 
 
 }
@@ -145,5 +145,5 @@ a:hover {
 }
 
 #box {
-  background-image: linear-gradient(300deg, #ffffff 0%, rgba(236, 235, 235, 0.849) 100%);
+  background-image: linear-gradient(-125deg, #FFFEFF 0%, #c1cbe2 100%);
 }

@@ -20,19 +20,21 @@ const Index = ({ posts, title, description, ...props }) => {
             <div className="nameBox">
             <h1 className="title">Todd Huyett</h1>
             <h2>Web Developer</h2>
+   
+              <p id="ab">
+                Before learning to code, I taught English in various countries.
+                As a developer, I enjoy learning to use new frameworks and
+                tools, which is how I spend most of my free time.{" "}
+              </p>
             </div>
+
             <h3 className="description">Recent projects:</h3>
           
             <main>
               <PostList2 posts={posts} />
             </main>
             <div id="about">
-              <h3 id="abb">About:</h3>
-              <p id="ab">
-                Before learning to code, I taught English in various countries.
-                As a developer, I enjoy learning to use new frameworks and
-                tools, which is how I spend most of my free time.{" "}
-              </p>
+         
               <h3 id="ab">Professional Certifications:</h3>
             </div>
             <div className="q">
