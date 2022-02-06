@@ -3,26 +3,18 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3005",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export"
   },
   "dependencies": {
-    "axios": "^0.21.4",
     "gray-matter": "^4.0.2",
-    "js-cookie": "^3.0.1",
     "next": "^12.0.10",
     "raw-loader": "^4.0.1",
-    "react": "^17.0.2",
-    "react-datepicker": "^3.8.0",
-    "react-datetime": "^3.0.4",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-markdown": "^4.3.1"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.2.4",
-    "react-social-icons": "^4.1.0"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0"
   }
 }

@@ -1,54 +1,39 @@
-import Link from 'next/link'
-import matter from 'gray-matter'
-import ReactMarkdown from 'react-markdown'
-
-import Layout from '@components/Layout'
-import getSlugs from '@utils/getSlugs'
+import Link from "next/link"
+import matter from "gray-matter"
+import ReactMarkdown from "react-markdown"
+import styles from "./[postname].module.css"
+import Layout from "@components/Layout"
+import getSlugs from "@utils/getSlugs"
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   if (!frontmatter) return <></>
 
   return (
-    <>
-       <div id="cont"><Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-      <div id="container">
-        <div className="back">
-          ←{' '}
-          <Link href="/">
-            <a>Back to project list</a>
-          </Link>
-        </div>
-        <article>
-          <h1>{frontmatter.title}</h1>
-          {frontmatter.hero_image && (
-            <img
-              src={frontmatter.hero_image}
-              className="hero"
-              alt={frontmatter.title}
-            />
-          )}
-          <div>
-            <ReactMarkdown source={markdownBody} />
+    <div id={styles.cont}>
+      <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+        <div id={styles.container}>
+          <div className={back}>
+            ←{" "}
+            <Link href="/">
+              <a>Back to project list</a>
+            </Link>
           </div>
-        </article></div>
-      </Layout></div>
-      <style jsx>{`
-     
-        #container {
-          padding-left: 20px;
-          padding-right: 10px;
-          padding-top: 20px;
-        }
-        * {
-  font-size: 20px;
-        }
-
-        #back {
-          padding-top: 20px;
-        }
-
-      `}</style>
-    </>
+          <article>
+            <h1>{frontmatter.title}</h1>
+            {frontmatter.hero_image && (
+              <img
+                src={frontmatter.hero_image}
+                className={hero}
+                alt={frontmatter.title}
+              />
+            )}
+            <div>
+              <ReactMarkdown source={markdownBody} />
+            </div>
+          </article>
+        </div>
+      </Layout>
+    </div>
   )
 }
 
@@ -69,11 +54,11 @@ export async function getStaticProps({ ...ctx }) {
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = ((context) => {
+  const blogSlugs = (context => {
     return getSlugs(context)
-  })(require.context('../../posts', true, /\.md$/))
+  })(require.context("../../posts", true, /\.md$/))
 
-  const paths = blogSlugs.map((slug) => `/post/${slug}`)
+  const paths = blogSlugs.map(slug => `/post/${slug}`)
 
   return {
     paths, // An array of path names, and any params

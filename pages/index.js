@@ -1,27 +1,18 @@
 import Layout from "@components/Layout"
 import PostList2 from "@components/PostList2"
-import Link from "next/link"
-import Head from "next/head"
+import styles from "./index.module.css"
 import getPosts from "@utils/getPosts"
 
 const Index = ({ posts, title, description, ...props }) => {
   return (
-    <>
-      <Head>
-        <link
-          href="//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular"
-          rel="stylesheet"
-          type="text/css"
-        />
-      </Head>
-      <div id="box">
-        <div id="cont">
+    <div>
+      <div id={styles.box}>
+        <div id={styles.cont}>
           <Layout pageTitle={title} description={description}>
             <div className="nameBox">
-              <h1 className="title">Todd Huyett</h1>
-              <h2>Web Developer</h2>
-
-              <p id="ab">
+              <h1 className={styles.title}>Todd Huyett</h1>
+              <h2 className={styles.hhh}>Web Developer</h2>
+              <p id={styles.ab}>
                 Each of the portfolio items listed below—where
                 applicable—contains a link to a simple frontend to demonstrate
                 the implementation of the various technologies noted in its
@@ -146,50 +137,7 @@ const Index = ({ posts, title, description, ...props }) => {
           </Layout>
         </div>
       </div>
-      <style jsx>{`
-        .title {
-          font-size: calc(30px + 0.5vw);
-        }
-        #ab {
-          padding-bottom: 0px;
-        }
-
-        #log {
-          height: 50px;
-        }
-
-        #ab {
-          margin-top: 30px;
-          margin-bottom: 20px;
-        }
-        h1 {
-        }
-        h2 {
-          font-size: calc(18px + 0.3vw);
-
-          padding-top: 0;
-        }
-        h3 {
-        }
-        .description {
-          padding-bottom: 0px;
-          padding-top: 20px;
-        }
-        p {
-          font-size: 16px;
-          padding-bottom: 0;
-          margin-bottom: 0;
-        }
-
-        #cont {
-          max-width: 800px;
-        }
-        html,
-        body {
-          max-width: 960px;
-        }
-      `}</style>
-    </>
+    </div>
   )
 }
 
@@ -197,7 +145,6 @@ export default Index
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`)
-
   const posts = (context => {
     return getPosts(context)
   })(require.context("../posts", true, /\.md$/))

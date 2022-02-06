@@ -7,9 +7,6 @@ body {
   margin: 0px;
   font-family: Helvetica;
 }
-h2 {
-  padding-bottom: 0;
-}
 #ab {
   max-width: 500px;
 }
@@ -19,13 +16,8 @@ h2 {
   color: #212427;
   font-size: 16px;
 }
-h1 {
-  color: #272727;
-}
-h2 {
-  color: #212427;
-  margin-top: -10px;
-}
+
+
 h3 {
   color: #212427;
   margin-bottom: 10px;
@@ -44,9 +36,13 @@ h4 {
 h2 {
   margin-top: 0;
   padding-top: 0;
+  color: #212427;
+  margin-top: -10px;
+
 }
 h1 {
   margin-bottom: 0;
+  color: #272727;
 }
 #cont {
   margin: auto;

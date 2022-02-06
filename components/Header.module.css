@@ -1,0 +1,24 @@
+.header {
+  max-width: 960px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.nav {
+  max-width: 100%;
+  font-size: calc(20px + 0.5vw);
+  align-items: center;
+}
+#icon {
+  padding-right: 20px;
+}
+.nava {
+  margin-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#git:hover {
+  color: blue;
+}
