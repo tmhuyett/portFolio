@@ -30,18 +30,6 @@ export default function PostList({ posts }) {
             )
           })}
       </ul>
-      <style jsx>{`
-        a {
-          font-size: calc(16px + 0.5vw);
-         
-
-        }
-
-        .z {
-     
-          padding-top: 10px;
-        }
-      `}</style>
     </div>
   )
 }
