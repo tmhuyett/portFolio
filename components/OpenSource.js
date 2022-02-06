@@ -21,23 +21,6 @@ export default function OpenSource() {
           </Link>
         </div>
       </ul>
-      <style jsx>{`
-        a {
-          font-size: calc(16px + 0.5vw);
-
-  
-          margin-left: 0px;
-
-        }
-
-        .z {
-          margin-left: 0;
-          padding-top: 10px;
-        }
-        a:hover {
-          color: blue;
-        }
-      `}</style>
     </div>
   );
 }
